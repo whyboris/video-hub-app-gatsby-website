@@ -50,7 +50,7 @@ const Blog = ({ intl }) => {
           </span>
           <a
             id="releasesButton"
-            href="#"
+            href="#newsroll"
             onClick={toggleReleases}
             className={
               "btn " + (currentlyShowing === "releases" ? "btn-primary" : "")
@@ -75,7 +75,7 @@ const Blog = ({ intl }) => {
           </span>
           <a
             id="donationButton"
-            href="#"
+            href="#newsroll"
             onClick={toggleDonations}
             className={
               "btn " + (currentlyShowing === "donations" ? "btn-primary" : "")
@@ -118,13 +118,13 @@ const Blog = ({ intl }) => {
         </div>
       </div>
 
-      <section className="blog-contents">
+      <section id="newsroll" className="blog-contents">
         <h1>
           {currentlyShowing === "all"
-            ? "All news"
+            ? "All news:"
             : currentlyShowing === "donations"
-            ? "Donations"
-            : "Releases"}
+            ? "Donations:"
+            : "Releases:"}
         </h1>
 
         <Receipt

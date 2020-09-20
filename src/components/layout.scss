@@ -132,7 +132,7 @@ footer {
   text-decoration: none;
 
   &:hover {
-    background-color: lighten($vhaBlue, 5%);
+    background-color: ($vhaBlue, 5%);
   }
 }
 
@@ -183,6 +183,7 @@ section {
   .receipt,
   .release {
     position: relative;
+    margin-bottom: 60px;
 
     .bold {
       font-weight: bold;
@@ -217,18 +218,19 @@ section {
       position: absolute;
     }
 
+    .date {
+      color: darken($vhaBlue, 30%);
+    }
+
     .tada {
       font-size: 30px;
       position: absolute;
       transform: translate(-118px, 40px);
     }
 
-    .date {
-      transform: translate(-280px, 0);
-    }
 
     .version {
-      transform: translate(-328px, 54px);
+      transform: translate(-328px, 54px) skew(-8deg);
     }
 
     .purchase {
@@ -252,16 +254,16 @@ section {
     }
   }
 
-  .receipt {
-    margin-bottom: 60px;
-
+  .release {
     .date {
-      transform: translate(-280px, 2px);
+      transform: translate(-280px, 0);
     }
   }
 
-  .release {
-    margin-bottom: 60px;
+  .receipt {
+    .date {
+      transform: translate(-280px, 2px);
+    }
   }
 }
 
@@ -1145,6 +1147,31 @@ nav {
 
   .move-down-hack {
     margin-top: 500px;
+  }
+
+  .blog-contents {
+    .receipt,
+    .release {
+      margin-bottom: 80px;
+
+      .date {
+        color: $vhaBlue;
+        left: 0;
+        text-align: left;
+        transform: translate(-8px, -28px);
+      }
+
+      .tada {
+        right: 0;
+        transform: translate(0, -40px);
+      }
+
+      .version {
+        left: initial;
+        right: 48px;
+        transform: translate(0, -28px) skew(-8deg);
+      }
+    }
   }
 }
 
