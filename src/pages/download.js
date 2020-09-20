@@ -4,6 +4,8 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Demo from "../components/demo"
+
 import { Link } from "gatsby-plugin-intl"
 
 const Download = ({ intl }) => (
@@ -15,74 +17,33 @@ const Download = ({ intl }) => (
     />
 
     <div className="price-container">
-      <div className="price-box">
-        <h2 className="pricing-plan">Windows</h2>
-        <div className="price">Free</div>
-        <hr />
-        <ul className="pricing-info">
-          <li>Limited to 50 videos per hub</li>
-        </ul>
-        <a
-          href="https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.dmg"
-          className="btn"
-        >
-          Demo
-        </a>
-        <ul className="pricing-info">
-          <li className="light">
-            v2.2.3
-            <span className="dl-size">(67mb)</span>
-          </li>
-        </ul>
-        <a
-          href="https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2.2.2.3-demo.exe"
-          className="btn portable-demo"
-        >
-          Portable
-        </a>
-      </div>
+      <Demo
+        data={{
+          os: "Windows",
+          version: "2.2.3",
+          size: "67mb",
+          link: "http://google.com",
+          portable: "http://google.com",
+        }}
+      />
 
-      <div className="price-box">
-        <h2 className="pricing-plan">Mac</h2>
-        <div className="price">Free</div>
-        <hr />
-        <ul className="pricing-info">
-          <li>Limited to 50 videos per hub</li>
-        </ul>
-        <a
-          href="https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.dmg"
-          className="btn"
-        >
-          Demo
-        </a>
-        <ul className="pricing-info">
-          <li className="light">
-            v2.2.3
-            <span className="dl-size">(107mb)</span>
-          </li>
-        </ul>
-      </div>
+      <Demo
+        data={{
+          os: "Mac",
+          version: "2.2.3",
+          size: "107mb",
+          link: "http://google.com",
+        }}
+      />
 
-      <div className="price-box">
-        <h2 className="pricing-plan">Linux</h2>
-        <div className="price">Free</div>
-        <hr />
-        <ul className="pricing-info">
-          <li>Limited to 50 videos per hub</li>
-        </ul>
-        <a
-          href="https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.dmg"
-          className="btn"
-        >
-          Demo
-        </a>
-        <ul className="pricing-info">
-          <li className="light">
-            v2.2.3
-            <span className="dl-size">(117mb)</span>
-          </li>
-        </ul>
-      </div>
+      <Demo
+        data={{
+          os: "Linux",
+          version: "2.2.3",
+          size: "117mb",
+          link: "http://google.com",
+        }}
+      />
 
       <div className="price-box popular">
         <div className="popular-text">Unlimited</div>
