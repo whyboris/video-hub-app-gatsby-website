@@ -6,8 +6,6 @@
 
 $vhaBlue: #335fff;
 
-// NEW
-
 .footer-links {
   float: right;
   margin-top: 15px;
@@ -41,6 +39,7 @@ h2 {
 
 a,
 p,
+li,
 span {
   user-select: text;
 
@@ -227,7 +226,6 @@ section {
       position: absolute;
       transform: translate(-118px, 40px);
     }
-
 
     .version {
       transform: translate(-328px, 54px) skew(-8deg);

@@ -131,7 +131,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "2,000",
-            date: "August 30, 2020",
+            date: "Aug 30, 2020",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=611216",
           }}
@@ -141,7 +141,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,900",
-            date: "June 26, 2020",
+            date: "Jun 26, 2020",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=602304",
           }}
@@ -151,7 +151,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,800",
-            date: "June 1, 2020",
+            date: "Jun 1, 2020",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=596149",
           }}
@@ -200,7 +200,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,500",
-            date: "April 14, 2020",
+            date: "Apr 14, 2020",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=574157",
           }}
@@ -210,7 +210,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,400",
-            date: "March 22, 2020",
+            date: "Mar 22, 2020",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=568217",
           }}
@@ -219,7 +219,7 @@ const Blog = ({ intl }) => {
         <Release
           data={{
             currentlyShowing,
-            date: "March 3, 2020",
+            date: "Mar 3, 2020",
             features: [
               "Create playlist from current view",
               "Folders can be sorted by 'last modified'",
@@ -242,7 +242,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,300",
-            date: "February 19, 2020",
+            date: "Feb 19, 2020",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=560428",
           }}
@@ -251,7 +251,7 @@ const Blog = ({ intl }) => {
         <Release
           data={{
             currentlyShowing,
-            date: "January 27, 2020",
+            date: "Jan 27, 2020",
             features: [
               "Touch Bar support",
               "Fuzzy search 🔍",
@@ -274,7 +274,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,200",
-            date: "January 16, 2020",
+            date: "Jan 16, 2020",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=551590",
           }}
@@ -284,7 +284,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,100",
-            date: "December 19, 2019",
+            date: "Dec 19, 2019",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=541904",
           }}
@@ -294,7 +294,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "1,000",
-            date: "November 15, 2019",
+            date: "Nov 15, 2019",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=532639",
           }}
@@ -304,7 +304,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "900",
-            date: "October 20, 2019",
+            date: "Oct 20, 2019",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=526422",
           }}
@@ -313,7 +313,7 @@ const Blog = ({ intl }) => {
         <Release
           data={{
             currentlyShowing,
-            date: "October 18, 2018",
+            date: "Oct 18, 2018",
             features: [
               "Tags 🎉 add your own tags to any video",
               "Choose number of screenshots per video",
@@ -341,7 +341,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "800",
-            date: "August 26, 2019",
+            date: "Aug 26, 2019",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=513201",
           }}
@@ -351,7 +351,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "700",
-            date: "July 7, 2019",
+            date: "Jul 7, 2019",
             receipt:
               "https://www.againstmalaria.com/Fundraiser.aspx?FundraiserID=8035",
           }}
@@ -405,7 +405,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "300",
-            date: "November 17, 2018",
+            date: "Nov 17, 2018",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=431274",
           }}
@@ -415,7 +415,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "200",
-            date: "August 26, 2018",
+            date: "Aug 26, 2018",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=410422",
           }}
@@ -425,7 +425,7 @@ const Blog = ({ intl }) => {
           data={{
             currentlyShowing,
             amount: "100",
-            date: "July 24, 2018",
+            date: "Jul 24, 2018",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=395198",
           }}
@@ -434,7 +434,7 @@ const Blog = ({ intl }) => {
         <Release
           data={{
             currentlyShowing,
-            date: "July 22, 2018",
+            date: "Jul 22, 2018",
             notes: "Video Hub App is on ProductHunt!",
             link: {
               link: "https://www.producthunt.com/posts/video-hub-app",
@@ -447,7 +447,7 @@ const Blog = ({ intl }) => {
         <Release
           data={{
             currentlyShowing,
-            date: "July 4, 2018",
+            date: "Jul 4, 2018",
             notes: "YouTube video for the app!",
             link: {
               link: "https://www.youtube.com/watch?v=_KC9xrsiwZg",
