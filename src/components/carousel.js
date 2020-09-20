@@ -6,7 +6,7 @@ import "./swiper.css"
 
 import { injectIntl } from "gatsby-plugin-intl"
 
-import FeatureList from "./step"
+import FeatureList from "./featureList"
 
 const Carousel = ({ data }) => {
   const params = {
@@ -28,7 +28,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/3small.jpg",
+            img: "/images/1small.jpg",
             heading: "Search by:",
             features: [
               "Folder name",
@@ -46,7 +46,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/1small.jpg",
+            img: "/images/2small.jpg",
             heading: "Sort by:",
             features: [
               "File size",
@@ -64,7 +64,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/1small.jpg",
+            img: "/images/3small.jpg",
             heading: "Tags:",
             features: [
               "Add your own tags to videos",
@@ -82,7 +82,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/2small.jpg",
+            img: "/images/1small.jpg",
             heading: "More:",
             features: [
               "Find duplicates",
