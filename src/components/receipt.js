@@ -2,7 +2,7 @@ import React from "react"
 
 const Receipt = ({ data }) => {
   return (
-    <div className="receipt">
+    <div className={ "receipt " + (data.currentlyShowing === "releases" ? "hidden" : "")}>
       <span className="date">{data.date}</span>
       <span className="purchase">
         {data.amount}

@@ -2,7 +2,7 @@ import React from "react"
 
 const Release = ({ data }) => {
   return (
-    <div className="release">
+    <div className={ "release " + (data.currentlyShowing === "donations" ? "hidden" : "")}>
       {data.hideTada ? null : <span className="tada">🎉</span>}
       <span className="date">{data.date}</span>
 

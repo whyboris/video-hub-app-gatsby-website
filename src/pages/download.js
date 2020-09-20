@@ -8,6 +8,8 @@ import Demo from "../components/demo"
 
 import { Link } from "gatsby-plugin-intl"
 
+const latestVersion = "2.2.3"
+
 const Download = ({ intl }) => (
   <Layout>
     <SEO
@@ -20,7 +22,7 @@ const Download = ({ intl }) => (
       <Demo
         data={{
           os: "Windows",
-          version: "2.2.3",
+          version: latestVersion,
           size: "67mb",
           link: "http://google.com",
           portable: "http://google.com",
@@ -30,7 +32,7 @@ const Download = ({ intl }) => (
       <Demo
         data={{
           os: "Mac",
-          version: "2.2.3",
+          version: latestVersion,
           size: "107mb",
           link: "http://google.com",
         }}
@@ -39,7 +41,7 @@ const Download = ({ intl }) => (
       <Demo
         data={{
           os: "Linux",
-          version: "2.2.3",
+          version: latestVersion,
           size: "117mb",
           link: "http://google.com",
         }}

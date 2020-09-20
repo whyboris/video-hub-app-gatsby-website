@@ -9,90 +9,25 @@ import SEO from "../components/seo"
 
 import ScrollToTop from "../components/scrolltotop"
 
-let currentlyShowing: "all" | "donation" | "releases" = "all"
+type CurrentView = "all" | "donations" | "releases"
+
+let currentlyShowing: CurrentView = "all"
 
 const Blog = ({ intl }) => {
   function toggleReleases() {
-    unselectButtons()
-
-    if (currentlyShowing === "releases") {
-      showDonations()
-      currentlyShowing = "all"
-      unselectButtons()
-    } else if (currentlyShowing === "donation") {
-      hideDonations()
-      showReleases()
-      selectReleasesButton()
-      currentlyShowing = "releases"
-    } else {
-      hideDonations()
-      selectReleasesButton()
-      currentlyShowing = "releases"
-    }
+    toggleView("releases")
   }
 
   function toggleDonations() {
-    unselectButtons()
+    toggleView("donations")
+  }
 
-    if (currentlyShowing === "donation") {
-      showReleases()
+  function toggleView(view: CurrentView) {
+    if (currentlyShowing === view) {
       currentlyShowing = "all"
-      unselectButtons()
-    } else if (currentlyShowing === "releases") {
-      hideReleases()
-      showDonations()
-      selectDonationButton()
-      currentlyShowing = "donation"
     } else {
-      hideReleases()
-      selectDonationButton()
-      currentlyShowing = "donation"
+      currentlyShowing = view
     }
-  }
-
-  // ELEMENT TOGGLING
-  function showReleases() {
-    const all = document.getElementsByClassName("release")
-    for (let element of all) {
-      element.classList.remove("hidden")
-    }
-  }
-
-  function hideReleases() {
-    const all = document.getElementsByClassName("release")
-    for (let element of all) {
-      element.classList.add("hidden")
-    }
-  }
-
-  function showDonations() {
-    const all = document.getElementsByClassName("receipt")
-    for (let element of all) {
-      element.classList.remove("hidden")
-    }
-  }
-
-  function hideDonations() {
-    const all = document.getElementsByClassName("receipt")
-    for (let element of all) {
-      element.classList.add("hidden")
-    }
-  }
-
-  // BUTTONS TOGGLING
-  function unselectButtons() {
-    const buttons = document.getElementsByClassName("btn-primary")
-    for (let element of buttons) {
-      element.classList.remove("btn-primary")
-    }
-  }
-
-  function selectDonationButton() {
-    document.getElementById("donationButton").classList.add("btn-primary")
-  }
-
-  function selectReleasesButton() {
-    document.getElementById("releasesButton").classList.add("btn-primary")
   }
 
   return (
@@ -110,13 +45,16 @@ const Blog = ({ intl }) => {
           <span className="light">released</span> May 15, 2020
           <hr />
           <span className="donation-description">
-            I have been working on version 3 for many months. I am hoping to release it before 2020 is over.
+            I have been working on version 3 for many months. I am hoping to
+            release it before 2020 is over.
           </span>
           <a
             id="releasesButton"
             href="#"
             onClick={toggleReleases}
-            className="btn"
+            className={
+              "btn " + (currentlyShowing === "releases" ? "btn-primary" : "")
+            }
           >
             Release history
           </a>
@@ -139,7 +77,9 @@ const Blog = ({ intl }) => {
             id="donationButton"
             href="#"
             onClick={toggleDonations}
-            className="btn"
+            className={
+              "btn " + (currentlyShowing === "donations" ? "btn-primary" : "")
+            }
           >
             Donation history
           </a>
@@ -182,13 +122,14 @@ const Blog = ({ intl }) => {
         <h1>
           {currentlyShowing === "all"
             ? "All news"
-            : currentlyShowing === "donation"
+            : currentlyShowing === "donations"
             ? "Donations"
             : "Releases"}
         </h1>
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "2,000",
             date: "August 30, 2020",
             receipt:
@@ -198,6 +139,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,900",
             date: "June 26, 2020",
             receipt:
@@ -207,6 +149,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,800",
             date: "June 1, 2020",
             receipt:
@@ -216,6 +159,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,700",
             date: "May 29, 2020",
             receipt:
@@ -225,6 +169,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "May 15, 2020",
             features: [
               "Batch tagging",
@@ -243,6 +188,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,600",
             date: "May 3, 2020",
             receipt:
@@ -252,6 +198,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,500",
             date: "April 14, 2020",
             receipt:
@@ -261,6 +208,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,400",
             date: "March 22, 2020",
             receipt:
@@ -270,6 +218,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "March 3, 2020",
             features: [
               "Create playlist from current view",
@@ -291,6 +240,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,300",
             date: "February 19, 2020",
             receipt:
@@ -300,6 +250,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "January 27, 2020",
             features: [
               "Touch Bar support",
@@ -321,6 +272,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,200",
             date: "January 16, 2020",
             receipt:
@@ -330,6 +282,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,100",
             date: "December 19, 2019",
             receipt:
@@ -339,6 +292,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "1,000",
             date: "November 15, 2019",
             receipt:
@@ -348,6 +302,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "900",
             date: "October 20, 2019",
             receipt:
@@ -357,6 +312,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "October 18, 2018",
             features: [
               "Tags 🎉 add your own tags to any video",
@@ -383,6 +339,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "800",
             date: "August 26, 2019",
             receipt:
@@ -392,6 +349,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "700",
             date: "July 7, 2019",
             receipt:
@@ -401,6 +359,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "600",
             date: "May 20, 2019",
             receipt:
@@ -410,6 +369,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "500",
             date: "Mar 21, 2019",
             receipt:
@@ -419,6 +379,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "400",
             date: "Jan 21, 2019",
             receipt:
@@ -428,6 +389,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "Dec 2, 2018",
             notes:
               "Video Hub App is now open source! If you're a developer and would like to contribute to the project or just see the code:",
@@ -441,6 +403,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "300",
             date: "November 17, 2018",
             receipt:
@@ -450,6 +413,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "200",
             date: "August 26, 2018",
             receipt:
@@ -459,6 +423,7 @@ const Blog = ({ intl }) => {
 
         <Receipt
           data={{
+            currentlyShowing,
             amount: "100",
             date: "July 24, 2018",
             receipt:
@@ -468,6 +433,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "July 22, 2018",
             notes: "Video Hub App is on ProductHunt!",
             link: {
@@ -480,6 +446,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "July 4, 2018",
             notes: "YouTube video for the app!",
             link: {
@@ -492,6 +459,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "May 14, 2018",
             features: ["Auto tagging", "Manual tagging"],
             notes: "Linux version is available!",
@@ -501,6 +469,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "Apr 24, 2018",
             features: ["Rename file", "Show similar"],
             version: "1.2.0",
@@ -509,6 +478,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "Apr 8, 2018",
             features: ["Resolution filter", "Resize app user interface"],
             bugfixes: [
@@ -522,6 +492,7 @@ const Blog = ({ intl }) => {
 
         <Release
           data={{
+            currentlyShowing,
             date: "Feb 20, 2018",
             notes:
               "Initial release. Windows and Mac versions released as demo. App is now available for purchase.",
