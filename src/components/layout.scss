@@ -133,7 +133,7 @@ footer {
   text-decoration: none;
 
   &:hover {
-    background-color: ($vhaBlue, 5%);
+    background-color: lighten($vhaBlue, 7%);
   }
 }
 
@@ -990,8 +990,8 @@ nav {
 
   .step-text {
     flex-grow: 2;
-    padding: 30px 10px;
     min-height: 230px;
+    padding: 0px 16px 40px;
   }
 
   .step-total {
