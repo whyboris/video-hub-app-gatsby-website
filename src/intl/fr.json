@@ -1,0 +1,36 @@
+{
+  "about": {
+    "title": "About the Video Hub App"
+  },
+  "download": {
+    "title": "Download"
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "q1": "How do I start?",
+    "q1_answer": "Answer goes here",
+    "q2": "How do I create a new hub?",
+    "q2_answer": "Answer goes here",
+    "q3": "What happens to my video files?",
+    "q3_answer": "Answer goes here",
+    "title": "Frequently Asked Questions | FAQ"
+  },
+  "general": {
+    "description": "Browse, search, and organize your videos",
+    "title": "Video Hub App"
+  },
+  "navigation": {
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "download": "Download",
+    "faq": "FAQ",
+    "home": "Home",
+    "share": "Share"
+  },
+  "features": {
+    "feature1": "Feature 1",
+    "feature2": "Feature 2",
+    "feature3": "Feature 3"
+  }
+}
