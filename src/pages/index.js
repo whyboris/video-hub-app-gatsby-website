@@ -11,6 +11,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Carousel from "../components/carousel"
+import { latestVersion } from "../components/version"
 
 import Language from "../components/language"
 
@@ -70,7 +71,7 @@ const IndexPage = ({ intl }) => {
         <div className="main-title">
           <h1>
             <FormattedMessage id="general.title" />
-            <span className="version">version 3.0.0</span>
+            <span className="version">version {latestVersion}</span>
           </h1>
           <p>Think of it like YouTube for videos on your computer</p>
           <p>Browse, search, and organize your videos</p>

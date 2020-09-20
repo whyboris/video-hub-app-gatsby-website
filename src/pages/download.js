@@ -8,7 +8,7 @@ import Demo from "../components/demo"
 
 import { Link } from "gatsby-plugin-intl"
 
-const latestVersion = "2.2.3"
+import { latestVersion } from "../components/version"
 
 const Download = ({ intl }) => (
   <Layout>

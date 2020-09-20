@@ -9,6 +9,8 @@ import SEO from "../components/seo"
 
 import ScrollToTop from "../components/scrolltotop"
 
+import { latestVersion } from "../components/version"
+
 type CurrentView = "all" | "donations" | "releases"
 
 let currentlyShowing: CurrentView = "all"
@@ -38,10 +40,10 @@ const Blog = ({ intl }) => {
         description={intl.formatMessage({ id: "general.description" })}
       />
 
-      <div className="price-container blog-sections">
+      <div className="price-container blog-sections" id="newsroll">
         <div className="price-box blog-box with-button">
           <h2 className="pricing-plan">Latest Version</h2>
-          <div className="price">2.2.3</div>
+          <div className="price">{ latestVersion }</div>
           <span className="light">released</span> May 15, 2020
           <hr />
           <span className="donation-description">
@@ -118,7 +120,7 @@ const Blog = ({ intl }) => {
         </div>
       </div>
 
-      <section id="newsroll" className="blog-contents">
+      <section className="blog-contents">
         <h1>
           {currentlyShowing === "all"
             ? "All news:"
