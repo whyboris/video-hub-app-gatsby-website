@@ -47,6 +47,8 @@ const About = ({ intl }) => (
       </p>
     </section>
 
+    <h1 className="reviews-heading">About AMF:</h1>
+
     <GiveWell />
 
   </Layout>

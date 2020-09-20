@@ -32,7 +32,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             img: '/images/1small.jpg',
-            text: "features.feature1",
+            features: ["features.feature1", "features.feature2"],
             mirror: false,
           }}
         />
@@ -42,7 +42,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             img: '/images/2small.jpg',
-            text: "features.feature2",
+            features: ["features.feature2", "features.feature6"],
             mirror: false,
           }}
         />
@@ -52,7 +52,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             img: '/images/3small.jpg',
-            text: "features.feature3",
+            features: ["features.feature3", "features.feature6"],
             mirror: false,
           }}
         />

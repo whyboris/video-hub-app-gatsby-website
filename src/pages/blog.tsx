@@ -40,10 +40,10 @@ const Blog = ({ intl }) => {
         description={intl.formatMessage({ id: "general.description" })}
       />
 
-      <div className="price-container blog-sections" id="newsroll">
+      <div className="price-container blog-sections">
         <div className="price-box blog-box with-button">
           <h2 className="pricing-plan">Latest Version</h2>
-          <div className="price">{ latestVersion }</div>
+          <div className="price">{latestVersion}</div>
           <span className="light">released</span> May 15, 2020
           <hr />
           <span className="donation-description">
@@ -52,7 +52,7 @@ const Blog = ({ intl }) => {
           </span>
           <a
             id="releasesButton"
-            href="#newsroll"
+            href="#"
             onClick={toggleReleases}
             className={
               "btn " + (currentlyShowing === "releases" ? "btn-primary" : "")
@@ -77,7 +77,7 @@ const Blog = ({ intl }) => {
           </span>
           <a
             id="donationButton"
-            href="#newsroll"
+            href="#"
             onClick={toggleDonations}
             className={
               "btn " + (currentlyShowing === "donations" ? "btn-primary" : "")

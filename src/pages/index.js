@@ -204,6 +204,8 @@ const IndexPage = ({ intl }) => {
         </div>
       </section>
 
+      <h1 className="reviews-heading">Some reviews:</h1>
+
       <PullQuote />
     </Layout>
   )

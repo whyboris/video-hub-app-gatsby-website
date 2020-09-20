@@ -11,9 +11,13 @@ const Step = ({data}) => {
         <img src={data.img} alt={'feature ' + data.step} />
       </div>
       <div className="step-text">
-        <p className="hif-step">
-          <FormattedMessage id={data.text} />
-        </p>
+        <ul className="feature-list">
+          { data.features.map((feature) => {
+            return(
+              <li>{ feature }</li>
+            )
+          })}
+        </ul>
       </div>
     </div>
 

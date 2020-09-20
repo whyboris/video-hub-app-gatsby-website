@@ -80,18 +80,20 @@ footer {
 
 .quote-container {
   box-sizing: border-box;
-  margin: 60px 0;
+  margin: 16px 0 90px;
   width: 100%;
 
   .pull-quote {
     display: block;
-    height: 50px;
-    line-height: 24px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 36px;
     text-align: center;
     user-select: none;
   }
 
   .quote-author {
+    font-size: 16px;
     display: inline-block;
     font-weight: bold;
     position: absolute;
@@ -966,8 +968,15 @@ nav {
   display: flex;
   position: relative;
 
-  .hif-step {
+  .feature-list {
     max-width: 80%;
+    margin-block-start: 14px;
+    padding-inline-start: 30px;
+
+    li {
+      list-style: circle;
+      margin-bottom: 10px;
+    }
   }
 
   .step-image {
@@ -975,12 +984,13 @@ nav {
 
     img {
       border-radius: 3px;
+      border: 1px solid $vhaBlue;
     }
   }
 
   .step-text {
     flex-grow: 2;
-    padding: 30px 30px 30px 60px;
+    padding: 30px 10px;
     min-height: 230px;
   }
 
@@ -1088,6 +1098,13 @@ nav {
     min-width: 244px;
     transform: translate(-185px, 10px);
   }
+}
+
+.reviews-heading {
+  color: $vhaBlue;
+  font-size: 20px;
+  margin: 50px 0 0;
+  text-align: center;
 }
 
 // ========================================== MEDIA ================================================
@@ -1305,13 +1322,13 @@ nav {
 
   .quote-container {
     .pull-quote {
-      min-height: 75px;
+      min-height: 100px;
     }
   }
 
   .give-well {
     .pull-quote {
-      min-height: 125px;
+      min-height: 150px;
     }
   }
 
@@ -1340,6 +1357,14 @@ nav {
   .easy-to-use {
     h2 {
       margin-left: -40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .step-image {
+    img {
+      width: 175px;
     }
   }
 }
