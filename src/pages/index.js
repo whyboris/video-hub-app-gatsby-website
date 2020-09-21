@@ -41,12 +41,12 @@ const IndexPage = ({ intl }) => {
         ]}
       />
 
-      <div className="language-select">
+      {/* <div className="language-select">
         <div className="dropbtn dropbtn-language">
           <LanguageSVG className="language-selection" />
         </div>
         <Language />
-      </div>
+      </div> */}
 
       <div className="top-container">
         <div className="computer-and-splash">

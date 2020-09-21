@@ -3,8 +3,8 @@ const LanguageList = [
   // `ar`, // Arabic
   // `zh`, // Cheneze (Simplified)
   `en`, // English
-  `fr`, // French
-  `de`, // German
+  // `fr`, // French
+  // `de`, // German
   // `ha`, // Hausa
   // `hi`, // Hindi
   // `it`, // Italian

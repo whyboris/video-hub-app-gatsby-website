@@ -1383,3 +1383,15 @@ nav {
 }
 
 // =========================================================================================================================================
+
+.nav-reset {
+  transform: none !important;
+  position: relative;
+  right: initial !important;
+
+  a {
+    text-decoration: none;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}

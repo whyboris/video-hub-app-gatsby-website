@@ -32,5 +32,9 @@
     "feature1": "Feature 1",
     "feature2": "Feature 2",
     "feature3": "Feature 3"
+  },
+  "notfound": {
+    "header": "Page not found",
+    "pleasevisit": "Please visit one of these pages:"
   }
 }
