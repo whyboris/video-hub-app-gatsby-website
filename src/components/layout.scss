@@ -662,13 +662,19 @@ nav {
   width: 400px;
   margin: 90px auto 0;
 
+  a {
+    color: $vhaBlue;
+    text-decoration: none;
+  }
+
   img {
     width: 400px;
     height: 400px;
   }
 
   p {
-    line-height: 170%;
+    line-height: 180%;
+    text-align: justify;
   }
 
   h1,
@@ -693,7 +699,8 @@ nav {
   }
 
   p {
-    line-height: 170%;
+    text-align: justify;
+    line-height: 180%;
   }
 }
 

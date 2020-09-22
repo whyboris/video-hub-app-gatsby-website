@@ -24,16 +24,22 @@ const About = ({ intl }) => (
       <p>
         Boris is a web developer working at Forbes. Video Hub App is a
         side-project created with Electron and Angular. $3.50 of every sale of
-        this software is donated to the Against Malaria Foundation, a top-rated
-        charity by GiveWell.
+        this software is{" "}
+        <a href="https://www.againstmalaria.com/VideoHubApp">donated</a> to the{" "}
+        <a href="http://againstmalaria.com/">Against Malaria Foundation</a>, a
+        top-rated charity by{" "}
+        <a href="https://www.givewell.org/charities/top-charities">GiveWell</a>.
       </p>
     </div>
 
     <section className="why-donate">
-
       <h1>Why donate?</h1>
 
-      <img width="100%" src="/images/againstmalariafoundation.jpg" alt="Against Malaria Foundation" />
+      <img
+        width="100%"
+        src="/images/againstmalariafoundation.jpg"
+        alt="Against Malaria Foundation"
+      />
 
       <p>
         Donations go to the Against Malaria Foundation (AMF) because it is a
@@ -50,7 +56,6 @@ const About = ({ intl }) => (
     <h1 className="reviews-heading">About AMF:</h1>
 
     <GiveWell />
-
   </Layout>
 )
 
