@@ -90,7 +90,7 @@ const IndexPage = ({ intl }) => {
         <div className="feature-preview reverse">
           <div className="image-container">
             <video muted src="/images/1.mp4" loop autoPlay>
-              <img alt="video hub app screenshot" src="/images/1.jpg" />
+              <img alt="video hub app screenshot" src="/images/1.webp" />
             </video>
           </div>
           <span>
@@ -103,7 +103,7 @@ const IndexPage = ({ intl }) => {
 
         <div className="feature-preview">
           <div className="image-container">
-            <img alt="video hub app screenshot" src="/images/2.jpg" />
+            <img alt="video hub app screenshot" src="/images/2.webp" />
           </div>
           <span>
             See as filmstrips
@@ -115,21 +115,19 @@ const IndexPage = ({ intl }) => {
 
         <div className="feature-preview reverse">
           <div className="image-container">
-            <video muted src="/images/3.mp4" loop autoPlay>
-              <img alt="video hub app screenshot" src="/images/3.jpg" />
-            </video>{" "}
+            <img alt="video hub app screenshot" src="/images/3.webp" />
           </div>
           <span>
             See all screenshots
             <span className="subtext">
-              All screenshots the app extracted all at once
+              All screenshots from each video at once
             </span>
           </span>
         </div>
 
         <div className="feature-preview">
           <div className="image-container">
-            <img alt="video hub app screenshot" src="/images/4.jpg" />
+            <img alt="video hub app screenshot" src="/images/4.webp" />
           </div>
           <span>
             Search and filter
@@ -141,9 +139,7 @@ const IndexPage = ({ intl }) => {
 
         <div className="feature-preview reverse">
           <div className="image-container">
-            <video muted src="/images/5.mp4" loop autoPlay>
-              <img alt="video hub app screenshot" src="/images/5.jpg" />
-            </video>
+            <img alt="video hub app screenshot" src="/images/5.webp" />
           </div>
           <span>
             Organize

@@ -20,6 +20,10 @@ const Carousel = ({ data }) => {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    autoplay: {
+      delay: 20000,
+      disableOnInteraction: true,
+    },
     spaceBetween: 30,
   }
 
@@ -28,7 +32,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/1small.jpg",
+            img: "/images/features/1.webp",
             heading: "Search by:",
             features: [
               "Folder name",
@@ -46,7 +50,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/2small.jpg",
+            img: "/images/features/2.webp",
             heading: "Sort by:",
             features: [
               "File size",
@@ -64,7 +68,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/3small.jpg",
+            img: "/images/features/3.webp",
             heading: "Tags:",
             features: [
               "Add your own tags to videos",
@@ -82,7 +86,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/1small.jpg",
+            img: "/images/features/4.webp",
             heading: "More:",
             features: [
               "Find duplicates",
@@ -100,7 +104,7 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/2small.jpg",
+            img: "/images/features/5.webp",
             heading: "And more:",
             features: [
               "Translations into 16 languages",

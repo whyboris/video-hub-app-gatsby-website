@@ -305,14 +305,12 @@ section {
       z-index: -1;
     }
 
-    img {
-      width: 100%;
-      border-radius: 5px;
-    }
-
+    img,
     video {
-      width: 100%;
       border-radius: 5px;
+      border: 1px solid #888888;
+      height: 318px;
+      width: 450px;
     }
 
     &:hover {
@@ -984,7 +982,7 @@ nav {
 
     img {
       border-radius: 3px;
-      border: 1px solid $vhaBlue;
+      border: 1px solid #777777;
     }
   }
 
@@ -1282,6 +1280,12 @@ nav {
       margin: 0;
       width: 100%;
       height: initial;
+
+      img,
+      video {
+        height: initial;
+        width: 100%;
+      }
 
       &:before {
         display: none;

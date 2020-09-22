@@ -15,7 +15,7 @@ const About = ({ intl }) => (
     />
 
     <div className="about-me">
-      <img src="/images/boris.jpg" alt="Boris Yakubchik" />
+      <img src="/images/boris.webp" alt="Boris Yakubchik" />
 
       <h1>Boris Yakubchik</h1>
 
