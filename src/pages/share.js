@@ -20,21 +20,41 @@ const Share = ({ intl }) => (
       <h2>Please upvote:</h2>
 
       <ul>
-        <li>AlternativeTo</li>
-        <li>Product Hunt</li>
+        <li>
+          <a href="https://alternativeto.net/software/video-hub-app">
+            AlternativeTo
+          </a>
+        </li>
+        <li>
+          <a href="https://www.producthunt.com/posts/video-hub-app">
+            Product Hunt
+          </a>
+        </li>
       </ul>
 
       <h2>Please like:</h2>
 
       <ul>
-        <li>Facebook page</li>
+        <li>
+          <a href="https://www.facebook.com/videohubapp">Facebook page</a>
+        </li>
       </ul>
 
       <h2>Please share:</h2>
 
       <ul>
-        <li>on Facebook</li>
-        <li>on Twitter</li>
+        <li>
+          on{" "}
+          <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.videohubapp.com">
+            Facebook
+          </a>
+        </li>
+        <li>
+          on{" "}
+          <a href="https://twitter.com/intent/tweet?hashtags=videohubapp&original_referer=https%3A%2F%2Fvideohubapp.com&text=Browse,%20search,%20preview,%20and%20manage%20your%20videos%20with%20Video%20Hub%20App%20for%20Win%20and%20Mac&url=https%3A%2F%2Fvideohubapp.com">
+            Twitter
+          </a>
+        </li>
       </ul>
 
       <h2>Please donate:</h2>
