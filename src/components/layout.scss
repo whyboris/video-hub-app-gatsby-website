@@ -746,6 +746,19 @@ nav {
   }
 }
 
+.faq {
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+
+  .with-numbers {
+    padding-inline-start: 20px;
+
+    li {
+      margin: 20px;
+    }
+  }
+}
+
 .price-container {
   display: flex;
   justify-content: space-around;
