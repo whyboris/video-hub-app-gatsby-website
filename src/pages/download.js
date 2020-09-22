@@ -96,10 +96,9 @@ const Download = ({ intl }) => (
 
       <p>
         You will be taken to your download page as well as emailed a link to the
-        download. For a full year from your initial purchase you will be able to
-        re-download every updated version of the software at any time from the
-        download link in your email. If you lose the link, just{" "}
-        <Link to="/contact">contact me</Link>.
+        download. For at least a year from your initial purchase you will be
+        able to download the latest version of the software at any time. If you
+        lose the link, just <Link to="/contact">contact me</Link>.
       </p>
 
       <h2>Why pay what you want?</h2>
