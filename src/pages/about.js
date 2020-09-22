@@ -4,9 +4,13 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
+
 import GiveWell from "../components/givewell"
 
-const About = ({ intl }) => (
+const About = ({ data, intl }) => (
+
   <Layout>
     <SEO
       lang={intl.locale}
@@ -15,7 +19,8 @@ const About = ({ intl }) => (
     />
 
     <div className="about-me">
-      <img src="/images/boris.webp" alt="Boris Yakubchik" />
+
+      <Img fluid={data.boris.childImageSharp.fluid} alt="Boris Yakubchik" />
 
       <h1>Boris Yakubchik</h1>
 
@@ -35,11 +40,7 @@ const About = ({ intl }) => (
     <section className="why-donate">
       <h1>Why donate?</h1>
 
-      <img
-        width="100%"
-        src="/images/againstmalariafoundation.jpg"
-        alt="Against Malaria Foundation"
-      />
+      <Img fluid={data.amf.childImageSharp.fluid} alt="Against Malaria Foundation" />
 
       <p>
         Donations go to the Against Malaria Foundation (AMF) because it is a
@@ -60,3 +61,22 @@ const About = ({ intl }) => (
 )
 
 export default injectIntl(About)
+
+export const query = graphql`
+query {
+  amf: file(relativePath: { eq: "againstmalariafoundation.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 780) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+  boris: file(relativePath: { eq: "boris.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 400) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`;
