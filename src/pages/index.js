@@ -156,7 +156,7 @@ const IndexPage = ({ intl }) => {
 
       <div className="easy-to-use">
         <img
-          src="/images/wizard.png"
+          src="/images/wizard.webp"
           alt="How to start with Video Hub App"
         ></img>
 
@@ -185,7 +185,7 @@ const IndexPage = ({ intl }) => {
 
       <section className="download-now">
         <img
-          src="/images/all-desktops.png"
+          src="/images/all-desktops.webp"
           alt="works on Windows, Mac, and Linux"
           className="img-responsive"
         />

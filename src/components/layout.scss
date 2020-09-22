@@ -663,7 +663,8 @@ nav {
   margin: 90px auto 0;
 
   img {
-    width: 100%;
+    width: 400px;
+    height: 400px;
   }
 
   p {
@@ -1383,6 +1384,11 @@ nav {
   .about-me {
     width: 100%;
     padding: 15px;
+
+    img {
+      height: initial;
+      width: 100%;
+    }
   }
 }
 
