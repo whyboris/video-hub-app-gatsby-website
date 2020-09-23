@@ -1,6 +1,6 @@
 {
   "about": {
-    "title": "About the Video Hub App"
+    "title": "About Video Hub App"
   },
   "download": {
     "title": "Download"
@@ -27,6 +27,12 @@
     "faq": "FAQ",
     "home": "Home",
     "share": "Share"
+  },
+  "share": {
+    "title": "Share"
+  },
+  "contact": {
+    "title": "Contact"
   },
   "features": {
     "feature1": "Feature 1",

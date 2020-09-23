@@ -28,7 +28,8 @@ const Layout = ({ children, intl }) => {
     <>
       <div className="logo">
         <Link to="/">
-          <img src="/images/logo.webp" alt="logo" />
+          <img src="/images/logo.png" alt="logo" />
+          {/* <img src="/images/logo.webp" alt="logo" /> */}
         </Link>
       </div>
 
