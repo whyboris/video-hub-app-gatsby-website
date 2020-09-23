@@ -7,6 +7,8 @@ import SplashSVG from "../svg/splash.svg"
 import ComputerSVG from "../svg/computer.svg"
 import LanguageSVG from "../svg/language.svg"
 
+import Img from "gatsby-image"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -15,7 +17,7 @@ import { latestVersion } from "../components/version"
 
 import Language from "../components/language"
 
-const IndexPage = ({ intl }) => {
+const IndexPage = ({ data, intl }) => {
   function playAnimation() {
     setTimeout(() => {
       const el = document.getElementById("splashImage")
@@ -26,6 +28,8 @@ const IndexPage = ({ intl }) => {
       }, 500)
     }, 1000)
   }
+
+  console.log(data)
 
   return (
     <Layout>
@@ -90,7 +94,8 @@ const IndexPage = ({ intl }) => {
         <div className="feature-preview reverse">
           <div className="image-container">
             <video muted src="/images/1.mp4" loop autoPlay>
-              <img alt="video hub app screenshot" src="/images/1.webp" />
+              {/* <img alt="video hub app screenshot" src="/images/1.webp" /> */}
+              <Img fluid={data.large1.childImageSharp.fluid} alt="Video Hub App screenshot" />
             </video>
           </div>
           <span>
@@ -103,7 +108,8 @@ const IndexPage = ({ intl }) => {
 
         <div className="feature-preview">
           <div className="image-container">
-            <img alt="video hub app screenshot" src="/images/2.webp" />
+            {/* <img alt="video hub app screenshot" src="/images/2.webp" /> */}
+            <Img fluid={data.large2.childImageSharp.fluid} alt="Video Hub App screenshot" />
           </div>
           <span>
             See as filmstrips
@@ -115,7 +121,8 @@ const IndexPage = ({ intl }) => {
 
         <div className="feature-preview reverse">
           <div className="image-container">
-            <img alt="video hub app screenshot" src="/images/3.webp" />
+            {/* <img alt="video hub app screenshot" src="/images/3.webp" /> */}
+            <Img fluid={data.large3.childImageSharp.fluid} alt="Video Hub App screenshot" />
           </div>
           <span>
             See all screenshots
@@ -127,7 +134,8 @@ const IndexPage = ({ intl }) => {
 
         <div className="feature-preview">
           <div className="image-container">
-            <img alt="video hub app screenshot" src="/images/4.webp" />
+            {/* <img alt="video hub app screenshot" src="/images/4.webp" /> */}
+            <Img fluid={data.large4.childImageSharp.fluid} alt="Video Hub App screenshot" />
           </div>
           <span>
             Search and filter
@@ -139,7 +147,8 @@ const IndexPage = ({ intl }) => {
 
         <div className="feature-preview reverse">
           <div className="image-container">
-            <img alt="video hub app screenshot" src="/images/5.webp" />
+            {/* <img alt="video hub app screenshot" src="/images/5.webp" /> */}
+            <Img fluid={data.large5.childImageSharp.fluid} alt="Video Hub App screenshot" />
           </div>
           <span>
             Organize
@@ -155,10 +164,11 @@ const IndexPage = ({ intl }) => {
       </section>
 
       <div className="easy-to-use">
-        <img
+        {/* <img
           src="/images/wizard.webp"
           alt="How to start with Video Hub App"
-        ></img>
+        ></img> */}
+        <Img fluid={data.wizard.childImageSharp.fluid} alt="Video Hub App screenshot" />
 
         <div className="how-to-use">
           <h2>Easy to start</h2>
@@ -184,11 +194,12 @@ const IndexPage = ({ intl }) => {
       </div>
 
       <section className="download-now">
-        <img
+        {/* <img
           src="/images/all-desktops.webp"
           alt="works on Windows, Mac, and Linux"
           className="img-responsive"
-        />
+        /> */}
+        <Img fluid={data.allos.childImageSharp.fluid} alt="Video Hub App screenshot" />
 
         <h2>Windows / Mac / Linux</h2>
         <p>Works the same way no matter what OS you use</p>
@@ -208,3 +219,57 @@ const IndexPage = ({ intl }) => {
 }
 
 export default injectIntl(IndexPage)
+
+export const query = graphql`
+query {
+  large1: file(relativePath: { eq: "large/1.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 450) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+  large2: file(relativePath: { eq: "large/2.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 450) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+  large3: file(relativePath: { eq: "large/3.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 450) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+  large4: file(relativePath: { eq: "large/4.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 450) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+  large5: file(relativePath: { eq: "large/5.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 450) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+  wizard: file(relativePath: { eq: "large/wizard.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1024) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+  allos: file(relativePath: { eq: "large/all-desktops.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 680) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  },
+}
+`;

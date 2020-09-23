@@ -32,7 +32,8 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/features/1.webp",
+            // img: "/images/features/1.webp",
+            img: "/images/features/1.jpg",
             heading: "Search by:",
             features: [
               "Folder name",
@@ -50,7 +51,8 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/features/2.webp",
+            // img: "/images/features/2.webp",
+            img: "/images/features/2.jpg",
             heading: "Sort by:",
             features: [
               "File size",
@@ -68,7 +70,8 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/features/3.webp",
+            // img: "/images/features/3.webp",
+            img: "/images/features/3.jpg",
             heading: "Tags:",
             features: [
               "Add your own tags to videos",
@@ -86,7 +89,8 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/features/4.webp",
+            // img: "/images/features/4.webp",
+            img: "/images/features/4.jpg",
             heading: "More:",
             features: [
               "Find duplicates",
@@ -104,7 +108,8 @@ const Carousel = ({ data }) => {
       <div>
         <FeatureList
           data={{
-            img: "/images/features/5.webp",
+            // img: "/images/features/5.webp",
+            img: "/images/features/5.jpg",
             heading: "And more:",
             features: [
               "Translations into 16 languages",

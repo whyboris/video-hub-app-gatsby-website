@@ -13,11 +13,11 @@ const FeatureList = ({ data }) => {
       </div>
       <div className="step-text">
         {data.heading ? (
-          <span class="feature-heading">{data.heading}</span>
+          <span className="feature-heading">{data.heading}</span>
         ) : null}
         <ul className="feature-list">
           {data.features.map((feature) => {
-            return <li>{feature}</li>
+            return <li key={feature}>{feature}</li>
           })}
         </ul>
       </div>

@@ -97,7 +97,7 @@ footer {
     display: inline-block;
     font-weight: bold;
     position: absolute;
-    transform: translate(-30px, 26px);
+    transform: translate(-90px, 26px);
 
     a {
       text-decoration: none;
@@ -305,8 +305,10 @@ section {
       z-index: -1;
     }
 
-    img,
-    video {
+    // img, // disabled until we start using webp images
+    video,
+    video img, // for video fallback image -- only needed while `img` is disabled above
+    .gatsby-image-wrapper {
       border-radius: 5px;
       border: 1px solid #888888;
       height: 318px;
@@ -401,9 +403,10 @@ section {
     color: #333333;
   }
 
-  img {
+  // img, // disabled until we start using webp
+  .gatsby-image-wrapper {
     right: 50%;
-    position: absolute;
+    position: absolute !important; // "!impartant" only until we start using webp
     width: 1024px;
   }
 
@@ -1307,7 +1310,8 @@ nav {
       width: 100%;
       height: initial;
 
-      img,
+      // img, // disabled until we start using webp
+      .gatsby-image-wrapper,
       video {
         height: initial;
         width: 100%;
@@ -1333,10 +1337,11 @@ nav {
   .easy-to-use {
     margin: 40px 20px;
 
-    img {
+    // img, // disabled until we start using webp
+    .gatsby-image-wrapper {
       width: 100%;
       right: 0;
-      position: relative;
+      position: relative !important;
     }
 
     .how-to-use {
