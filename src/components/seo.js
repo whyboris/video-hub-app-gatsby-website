@@ -57,7 +57,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:creator`,
-          content: `@HealthImpact`,
+          content: `@whyboris`,
         },
         {
           name: `twitter:title`,

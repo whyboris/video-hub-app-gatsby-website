@@ -3,9 +3,9 @@ const { LanguageList } = require("./src/intl/languages");
 module.exports = {
   siteMetadata: {
     title: `Video Hub App`,
-    description: `Browse, search, and organize your videos.`,
-    author: `@HealthImpact`,
-    siteUrl: `https://healthimpactfund.org`
+    description: `Browse, search, and organize your videos`,
+    author: `@whyboris`,
+    siteUrl: `https://videohubapp.com`
   },
   plugins: [
     {
@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://healthimpactfund.org`,
+        host: `https://videohubapp.com`,
         policy: [{ userAgent: `*`, allow: `/` }]
       }
     },
