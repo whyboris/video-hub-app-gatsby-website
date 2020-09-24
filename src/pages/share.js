@@ -15,9 +15,9 @@ const Share = ({ intl }) => (
     />
 
     <section className="please-share">
-      <h1>If you like the app</h1>
+      <h1>{intl.formatMessage({ id: "share.title" })}</h1>
 
-      <h2>Please upvote:</h2>
+      <h2>{intl.formatMessage({ id: "share.upvote" })}:</h2>
 
       <ul>
         <li>
@@ -32,32 +32,30 @@ const Share = ({ intl }) => (
         </li>
       </ul>
 
-      <h2>Please like:</h2>
+      <h2>{intl.formatMessage({ id: "share.like" })}:</h2>
 
       <ul>
         <li>
-          <a href="https://www.facebook.com/videohubapp">Facebook page</a>
+          <a href="https://www.facebook.com/videohubapp">Facebook</a>
         </li>
       </ul>
 
-      <h2>Please share:</h2>
+      <h2>{intl.formatMessage({ id: "share.share" })}:</h2>
 
       <ul>
         <li>
-          on{" "}
           <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.videohubapp.com">
             Facebook
           </a>
         </li>
         <li>
-          on{" "}
           <a href="https://twitter.com/intent/tweet?hashtags=videohubapp&original_referer=https%3A%2F%2Fvideohubapp.com&text=Browse,%20search,%20preview,%20and%20manage%20your%20videos%20with%20Video%20Hub%20App%20for%20Win%20and%20Mac&url=https%3A%2F%2Fvideohubapp.com">
             Twitter
           </a>
         </li>
       </ul>
 
-      <h2>Please donate:</h2>
+      <h2>{intl.formatMessage({ id: "share.donate" })}:</h2>
 
       <ul>
         <li>
@@ -100,23 +98,23 @@ const Share = ({ intl }) => (
               src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
               alt="Buy me a coffee"
             />
-            <span className="buy-text">Buy me a coffee</span>
+            <span className="buy-text">
+              {intl.formatMessage({ id: "share.buycoffee" })}
+            </span>
           </a>
         </li>
         <li>
-          I appreciate any donations{" "}
+          {intl.formatMessage({ id: "share.appreciate" })}{" "}
           <span role="img" aria-label="winking smiley face">
             😊
           </span>
         </li>
       </ul>
 
-      <h2>Thank you:</h2>
+      <h2>{intl.formatMessage({ id: "share.thankyou" })}:</h2>
 
       <p>
-        Promoting the app is a skill of its own and companies spend a lot of
-        money on it. I am a single developer and would sincerely appreciate if
-        you share the word about my app{" "}
+        {intl.formatMessage({ id: "share.thankyoutext" })}{" "}
         <span role="img" aria-label="bowing emoji">
           🙇‍♂️
         </span>

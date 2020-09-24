@@ -49,6 +49,15 @@
     "pleasevisit": "Please visit one of these pages:"
   },
   "share": {
-    "title": "Share"
+    "appreciate": "I appreciate any donations",
+    "buycoffee": "Buy me a coffee",
+    "donate": "Please donate",
+    "heading": "If you like the app",
+    "like": "Please like",
+    "share": "Please share",
+    "thankyou": "Thank you",
+    "thankyoutext": "Promoting the app is a skill of its own and companies spend a lot of money on it. I am a single developer and would sincerely appreciate if you share the word about my app",
+    "title": "Share",
+    "upvote": "Please upvote"
   }
 }
