@@ -9,8 +9,25 @@ import Img from "gatsby-image"
 
 import GiveWell from "../components/givewell"
 
-const About = ({ data, intl }) => (
+const i18nSubstitutions = {
+  intl_givewell: (
+    <>
+      <a href="https://www.givewell.org/charities/top-charities">GiveWell</a>
+    </>
+  ),
+  intl_donated: (
+    <>
+      <a href="https://www.againstmalaria.com/VideoHubApp">$3.50</a>
+    </>
+  ),
+  intl_amf: (
+    <>
+      <a href="http://againstmalaria.com/">Against Malaria Foundation</a>
+    </>
+  ),
+}
 
+const About = ({ data, intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
@@ -19,42 +36,36 @@ const About = ({ data, intl }) => (
     />
 
     <div className="about-me">
-
       <Img fluid={data.boris.childImageSharp.fluid} alt="Boris Yakubchik" />
 
       <h1>Boris Yakubchik</h1>
 
-      <h2>Creator of Video Hub App</h2>
+      <h2>{intl.formatMessage({ id: "about.creator" })} Video Hub App</h2>
 
-      <p>
-        Boris is a web developer working at Forbes. Video Hub App is a
-        side-project created with Electron and Angular. $3.50 of every sale of
-        this software is{" "}
-        <a href="https://www.againstmalaria.com/VideoHubApp">donated</a> to the{" "}
-        <a href="http://againstmalaria.com/">Against Malaria Foundation</a>, a
-        top-rated charity by{" "}
-        <a href="https://www.givewell.org/charities/top-charities">GiveWell</a>.
-      </p>
+      <FormattedMessage id="about.bio" values={i18nSubstitutions}>
+        {(...chunks) => <p>{chunks}</p>}
+      </FormattedMessage>
     </div>
 
     <section className="why-donate">
-      <h1>Why donate?</h1>
+      <h1>{intl.formatMessage({ id: "about.whydonate" })}</h1>
 
-      <Img fluid={data.amf.childImageSharp.fluid} alt="Against Malaria Foundation" />
+      <Img
+        fluid={data.amf.childImageSharp.fluid}
+        alt="Against Malaria Foundation"
+      />
 
-      <p>
-        Donations go to the Against Malaria Foundation (AMF) because it is a
-        top-rated charity by GiveWell, an independent charity evaluator. Every
-        $2 given to AMF protects two people from malaria for 3-4 years.
-      </p>
-      <p>
-        Boris has been giving at least 10% of his income to the most
-        cost-effective charities (see GiveWell) since 2011. Sales from this
-        software will provide additional donations to his favorite charity.
-      </p>
+      <FormattedMessage id="about.p1" values={i18nSubstitutions}>
+        {(...chunks) => <p>{chunks}</p>}
+      </FormattedMessage>
+      <FormattedMessage id="about.p2" values={i18nSubstitutions}>
+        {(...chunks) => <p>{chunks}</p>}
+      </FormattedMessage>
     </section>
 
-    <h1 className="reviews-heading">About AMF:</h1>
+    <h1 className="reviews-heading">
+      {intl.formatMessage({ id: "about.title" })} AMF:
+    </h1>
 
     <GiveWell />
   </Layout>
@@ -63,20 +74,20 @@ const About = ({ data, intl }) => (
 export default injectIntl(About)
 
 export const query = graphql`
-query {
-  amf: file(relativePath: { eq: "againstmalariafoundation.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 780) {
-        ...GatsbyImageSharpFluid
+  query {
+    amf: file(relativePath: { eq: "againstmalariafoundation.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 780) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-  boris: file(relativePath: { eq: "boris.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 400) {
-        ...GatsbyImageSharpFluid
+    boris: file(relativePath: { eq: "boris.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
-}
-`;
+`

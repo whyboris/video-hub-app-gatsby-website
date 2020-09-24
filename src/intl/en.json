@@ -1,6 +1,11 @@
 {
   "about": {
-    "title": "About Video Hub App"
+    "bio": "Boris is a web developer working at Forbes. Video Hub App is a side-project created with Electron and Angular. {intl_donated} of every sale of this software is donated to the {intl_amf}, a top-rated charity by {intl_givewell}.",
+    "creator": "Creator of",
+    "title": "About",
+    "whydonate": "Why donate?",
+    "p1": "Donations go to the {intl_amf} (AMF) because it is a top-rated charity by {intl_givewell}, an independent charity evaluator. Every $2 given to AMF protects two people from malaria for 3-4 years.",
+    "p2": "Boris has been giving at least 10% of his income to the most cost-effective charities (see {intl_givewell}) since 2011. Sales from this software will provide additional donations to his favorite charity."
   },
   "contact": {
     "bug": "Bug report",

@@ -670,6 +670,11 @@ nav {
     text-decoration: none;
   }
 
+  .gatsby-image-wrapper {
+    border-radius: 15px;
+    box-shadow: 0px 3px 12px -8px #252c18;
+  }
+
   img {
     width: 400px;
     height: 400px;
@@ -701,9 +706,18 @@ nav {
     margin-bottom: 30px;
   }
 
+  .gatsby-image-wrapper {
+    border-radius: 15px;
+    box-shadow: 0px 3px 12px -8px #252c18;
+  }
+
   p {
     text-align: justify;
     line-height: 180%;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 
