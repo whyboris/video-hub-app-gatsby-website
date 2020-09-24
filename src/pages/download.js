@@ -10,6 +10,43 @@ import { Link } from "gatsby-plugin-intl"
 
 import { latestVersion } from "../components/version"
 
+// copied from `about.js`
+const i18nSubstitutions = {
+  intl_givewell: (
+    <>
+      <a href="https://www.givewell.org/charities/top-charities">GiveWell</a>
+    </>
+  ),
+  intl_donated: (
+    <>
+      <a href="https://www.againstmalaria.com/VideoHubApp">$3.50</a>
+    </>
+  ),
+  intl_amf: (
+    <>
+      <a href="http://againstmalaria.com/">Against Malaria Foundation</a>
+    </>
+  ),
+}
+
+const i18nPayment = {
+  intl_stripe: (
+    <>
+      <a href="https://stripe.com/">Stripe</a>
+    </>
+  ),
+  intl_paypal: (
+    <>
+      <a href="https://paypal.com/">PayPal</a>
+    </>
+  ),
+  intl_chec: (
+    <>
+      <a href="https://chec.io/">Chec</a>
+    </>
+  ),
+}
+
 const Download = ({ intl }) => (
   <Layout>
     <SEO
@@ -24,8 +61,10 @@ const Download = ({ intl }) => (
           os: "Windows",
           version: latestVersion,
           size: "66mb",
-          link: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2.Setup.2.2.3-demo.exe",
-          portable: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2.2.2.3-demo.exe",
+          link:
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2.Setup.2.2.3-demo.exe",
+          portable:
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2.2.2.3-demo.exe",
         }}
       />
 
@@ -34,7 +73,8 @@ const Download = ({ intl }) => (
           os: "Mac",
           version: latestVersion,
           size: "107mb",
-          link: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.dmg",
+          link:
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.dmg",
         }}
       />
 
@@ -43,22 +83,27 @@ const Download = ({ intl }) => (
           os: "Linux",
           version: latestVersion,
           size: "117mb",
-          link: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.AppImage",
+          link:
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.AppImage",
         }}
       />
 
       <div className="price-box popular">
-        <div className="popular-text">Unlimited</div>
-        <h2 className="pricing-plan">Every OS</h2>
+        <div className="popular-text">
+          {intl.formatMessage({ id: "download.unlimited" })}
+        </div>
+        <h2 className="pricing-plan">
+          {intl.formatMessage({ id: "download.every" })} OS
+        </h2>
         <div className="price">
           <sup className="currency">$</sup>5<sup className="currency">.00</sup>
         </div>
         <hr />
         <ul className="pricing-info">
-          <li>Unlimited videos</li>
-          <li>Free updates for a year</li>
-          <li>PC, Mac, &amp; Linux versions</li>
-          <li>Download instantly available</li>
+          <li> {intl.formatMessage({ id: "download.buy1" })}</li>
+          <li> {intl.formatMessage({ id: "download.buy2" })}</li>
+          <li> {intl.formatMessage({ id: "download.buy3" })}</li>
+          <li> {intl.formatMessage({ id: "download.buy4" })}</li>
         </ul>
 
         <a
@@ -66,52 +111,40 @@ const Download = ({ intl }) => (
           data-chec-product-id="video-hub-app"
           className="btn btn-primary"
         >
-          Buy Now
+          {intl.formatMessage({ id: "download.buy" })}
         </a>
       </div>
     </div>
 
     <section className="please-share">
-      <h1>Details</h1>
+      <h1>{intl.formatMessage({ id: "download.details" })}</h1>
 
-      <h2>100% clean</h2>
+      <h2>100% {intl.formatMessage({ id: "download.clean" })}</h2>
 
       <p>
-        100% CLEAN award by{" "}
+        <em>100% CLEAN</em> {intl.formatMessage({ id: "download.award" })} -{" "}
         <a href="http://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Video-Hub-App.shtml#status">
           Softpedia
         </a>
-        .
       </p>
 
-      <h2>Paying</h2>
+      <h2>{intl.formatMessage({ id: "download.paying" })}</h2>
 
-      <p>
-        All payments are processed by <a href="https://stripe.com/">Stripe</a>{" "}
-        or <a href="https://paypal.com/">Paypal</a> with the checkout process
-        handled by <a href="https://chec.io/">Chec</a>.
-      </p>
+      <FormattedMessage id="download.paying_text" values={i18nPayment}>
+        {(...chunks) => <p>{chunks}</p>}
+      </FormattedMessage>
 
-      <h2>After purchase</h2>
+      <h2>{intl.formatMessage({ id: "download.after" })}</h2>
 
-      <p>
-        You will be taken to your download page as well as emailed a link to the
-        download. For at least a year from your initial purchase you will be
-        able to download the latest version of the software at any time. If you
-        lose the link, just <Link to="/contact">contact me</Link>.
-      </p>
+      <p>{intl.formatMessage({ id: "download.after_text" })}</p>
 
-      <h2>Why pay what you want?</h2>
+      <h2>{intl.formatMessage({ id: "download.whypay" })}</h2>
 
-      <p>
-        I want more people to be able to use the software, so the price is lower
-        than it should be, but I also want to make the world a better place, so
-        $3.50 from every purchase goes to the{" "}
-        <a href="http://againstmalaria.com/">Against Malaria Foundation</a>, a
-        top-rated charity by <a href="http://givewell.org/">GiveWell</a>. Please
-        consider paying as much as you think appropriate. To learn more, please
-        go to the <Link to="/about">about page</Link>.
-      </p>
+      <FormattedMessage id="download.whypay_text" values={i18nSubstitutions}>
+        {(...chunks) => <p>{chunks}</p>}
+      </FormattedMessage>
+
+      <Link to="/about">{intl.formatMessage({ id: "blog.read_more" })}</Link>
     </section>
   </Layout>
 )

@@ -37,7 +37,27 @@
     "title": "Contact"
   },
   "download": {
-    "title": "Download"
+    "after": "After purchase",
+    "after_text": "You will be taken to your download page as well as emailed a link to the download. For at least a year from your initial purchase you will be able to download the latest version of the software at any time. If you lose the link, just contact me.",
+    "award": "award",
+    "buy": "Buy Now",
+    "buy1": "Unlimited videos",
+    "buy2": "Free updates for a year",
+    "buy3": "PC, Mac, & Linux versions",
+    "buy4": "Download instantly available",
+    "clean": "clean",
+    "demo": "Demo",
+    "details": "Details",
+    "every": "every",
+    "free": "Free",
+    "limited": "Limited to 50 videos per hub",
+    "paying": "Paying",
+    "paying_text": "All payments are processed by {intl_stripe} or {intl_paypal} with the checkout process handled by {intl_chec}.",
+    "portable": "Portable",
+    "title": "Download",
+    "unlimited": "Unlimited",
+    "whypay": "Why pay what you want?",
+    "whypay_text": "I want more people to be able to use the software, so the price is lower than it should be, but I also want to make the world a better place, so {intl_donated} from every purchase goes to the {intl_amf}, a top-rated charity by {intl_givewell}. Please consider paying as much as you think appropriate. "
   },
   "faq": {
     "heading": "Frequently Asked Questions",

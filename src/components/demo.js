@@ -1,16 +1,18 @@
 import React from "react"
 
-const Demo = ({ data }) => {
+import { injectIntl } from "gatsby-plugin-intl"
+
+const Demo = ({ data, intl }) => {
   return (
     <div className="price-box">
       <h2 className="pricing-plan">{data.os}</h2>
-      <div className="price">Free</div>
+      <div className="price">{intl.formatMessage({ id: "download.free" })}</div>
       <hr />
       <ul className="pricing-info">
-        <li>Limited to 50 videos per hub</li>
+        <li>{intl.formatMessage({ id: "download.limited" })}</li>
       </ul>
       <a href={data.link} className="btn">
-        Demo
+        {intl.formatMessage({ id: "download.demo" })}
       </a>
       <ul className="pricing-info">
         <li className="light">
@@ -20,11 +22,11 @@ const Demo = ({ data }) => {
       </ul>
       {data.portable ? (
         <a href={data.portable} className="btn portable-demo">
-          Portable
+          {intl.formatMessage({ id: "download.portable" })}
         </a>
       ) : null}
     </div>
   )
 }
 
-export default Demo
+export default injectIntl(Demo)
