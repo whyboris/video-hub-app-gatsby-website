@@ -3,6 +3,8 @@ import { FormattedMessage, injectIntl, Link } from "gatsby-plugin-intl"
 
 import PullQuote from "../components/pullquote"
 
+import { graphql } from "gatsby"
+
 import SplashSVG from "../svg/splash.svg"
 import ComputerSVG from "../svg/computer.svg"
 import LanguageSVG from "../svg/language.svg"

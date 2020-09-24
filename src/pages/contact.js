@@ -15,7 +15,9 @@ const Contact = ({ intl }) => (
     />
 
     <section className="contact-page">
-      <h2 style={{ textAlign: 'center', marginBottom: '40px' }}>Questions? Comments? Feature request? Bug reports?</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "40px" }}>
+        {intl.formatMessage({ id: "contact.heading" })}
+      </h2>
 
       <form
         id="fs-frm"
@@ -25,17 +27,27 @@ const Contact = ({ intl }) => (
         method="post"
       >
         <fieldset>
-          <label htmlFor="reason">Please choose reason for reaching out:</label>
+          <label htmlFor="reason">
+            {intl.formatMessage({ id: "contact.reason" })}
+          </label>
           <select name="reason" id="reason" required="">
-            <option value="bug">Bug report</option>
-            <option value="request">Feature request</option>
-            <option value="lostlink">Lost my download link</option>
+            <option value="bug">
+              {intl.formatMessage({ id: "contact.bug" })}
+            </option>
+            <option value="request">
+              {intl.formatMessage({ id: "contact.request" })}
+            </option>
+            <option value="lostlink">
+              {intl.formatMessage({ id: "contact.lostlink" })}
+            </option>
             <option value="other" defaultValue>
-              Other
+              {intl.formatMessage({ id: "contact.other" })}
             </option>
           </select>
 
-          <label htmlFor="email-address">Email Address</label>
+          <label htmlFor="email-address">
+            {intl.formatMessage({ id: "contact.email" })}
+          </label>
           <input
             type="email"
             name="_replyto"
@@ -44,7 +56,9 @@ const Contact = ({ intl }) => (
             required=""
           />
 
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">
+            {intl.formatMessage({ id: "contact.message" })}
+          </label>
           <textarea
             rows="5"
             name="message"

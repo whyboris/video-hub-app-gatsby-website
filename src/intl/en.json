@@ -2,6 +2,17 @@
   "about": {
     "title": "About Video Hub App"
   },
+  "contact": {
+    "bug": "Bug report",
+    "email": "Email address",
+    "heading": "Questions? Comments? Feature request? Bug reports?",
+    "lostlink": "Lost my download link",
+    "message": "Message",
+    "other": "Other",
+    "reason": "Please choose reason for reaching out:",
+    "request": "Feature request",
+    "title": "Contact"
+  },
   "download": {
     "title": "Download"
   },
@@ -14,6 +25,11 @@
     "q3": "What happens to my video files?",
     "q3_answer": "Answer goes here",
     "title": "Frequently Asked Questions | FAQ"
+  },
+  "features": {
+    "feature1": "Feature 1",
+    "feature2": "Feature 2",
+    "feature3": "Feature 3"
   },
   "general": {
     "description": "Browse, search, and organize your videos",
@@ -28,19 +44,11 @@
     "home": "Home",
     "share": "Share"
   },
-  "share": {
-    "title": "Share"
-  },
-  "contact": {
-    "title": "Contact"
-  },
-  "features": {
-    "feature1": "Feature 1",
-    "feature2": "Feature 2",
-    "feature3": "Feature 3"
-  },
   "notfound": {
     "header": "Page not found",
     "pleasevisit": "Please visit one of these pages:"
+  },
+  "share": {
+    "title": "Share"
   }
 }
