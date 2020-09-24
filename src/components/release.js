@@ -1,16 +1,24 @@
 import React from "react"
 
-const Release = ({ data }) => {
+import { injectIntl } from "gatsby-plugin-intl"
+
+const Release = ({ data, intl }) => {
   return (
-    <div className={ "release " + (data.currentlyShowing === "donations" ? "hidden" : "")}>
-      {data.hideTada ? null : <span className="tada">🎉</span>}
+    <div
+      className={
+        "release " + (data.currentlyShowing === "donations" ? "hidden" : "")
+      }
+    >
+      {data.hideTada ? null : <span className="tada" role="img">🎉</span>}
       <span className="date">{data.date}</span>
 
       {data.version ? <span className="version">v{data.version}</span> : null}
 
       {data.features ? (
         <>
-          <span className="bold">Features:</span>
+          <span className="bold">
+            {intl.formatMessage({ id: "blog.features" })}:
+          </span>
           <ul>
             {data.features.map((feature) => {
               return <li key={feature}>{feature}</li>
@@ -21,7 +29,9 @@ const Release = ({ data }) => {
 
       {data.bugfixes ? (
         <>
-          <span className="bold">Bugfixes:</span>
+          <span className="bold">
+            {intl.formatMessage({ id: "blog.bugfixes" })}:
+          </span>
           <ul>
             {data.bugfixes.map((bugfix) => {
               return <li key={bugfix}>{bugfix}</li>
@@ -37,4 +47,4 @@ const Release = ({ data }) => {
   )
 }
 
-export default Release
+export default injectIntl(Release)

@@ -1,6 +1,6 @@
 import React from "react"
 
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
+import { injectIntl } from "gatsby-plugin-intl"
 
 const Receipt = ({ data, intl }) => {
   return (
