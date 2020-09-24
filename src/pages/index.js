@@ -64,7 +64,7 @@ const IndexPage = ({ data, intl }) => {
             <div className="splash-image-container">
               <SplashSVG />
               <img
-                alt="video hub app screenshot"
+                alt="Video Hub App screenshot"
                 id="splashImage"
                 className="splash"
                 src="/images/splash.jpg"
