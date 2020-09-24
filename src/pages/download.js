@@ -23,9 +23,9 @@ const Download = ({ intl }) => (
         data={{
           os: "Windows",
           version: latestVersion,
-          size: "67mb",
-          link: "http://google.com",
-          portable: "http://google.com",
+          size: "66mb",
+          link: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2.Setup.2.2.3-demo.exe",
+          portable: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2.2.2.3-demo.exe",
         }}
       />
 
@@ -34,7 +34,7 @@ const Download = ({ intl }) => (
           os: "Mac",
           version: latestVersion,
           size: "107mb",
-          link: "http://google.com",
+          link: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.dmg",
         }}
       />
 
@@ -43,7 +43,7 @@ const Download = ({ intl }) => (
           os: "Linux",
           version: latestVersion,
           size: "117mb",
-          link: "http://google.com",
+          link: "https://github.com/whyboris/Video-Hub-App/releases/download/v2.2.3/Video.Hub.App.2-2.2.3-demo.AppImage",
         }}
       />
 
