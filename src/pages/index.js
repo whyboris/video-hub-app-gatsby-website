@@ -41,9 +41,9 @@ const IndexPage = ({ data, intl }) => {
         description={intl.formatMessage({ id: "general.description" })}
         keywords={[
           `Video Hub App`,
-          `video organizer`,
-          `file organizer`,
-          `organize videos`,
+          intl.formatMessage({ id: "seo.file_organizer" }),
+          intl.formatMessage({ id: "seo.organize_videos" }),
+          intl.formatMessage({ id: "seo.video_organizer" }),
         ]}
       />
 
@@ -181,7 +181,9 @@ const IndexPage = ({ data, intl }) => {
           </span>
         </div>
 
-        <h2 className="many-features">Many more features:</h2>
+        <h2 className="many-features">
+          <FormattedMessage id="home.many_more" />:
+        </h2>
 
         <Carousel />
       </section>
@@ -197,24 +199,38 @@ const IndexPage = ({ data, intl }) => {
         />
 
         <div className="how-to-use">
-          <h2>Easy to start</h2>
+          <h2>
+            <FormattedMessage id="home.easy" />
+          </h2>
 
           <div>
             <i>1</i>
-            <h3>Select a folder</h3>
-            <p>from your computer, external hard drive, or network drive</p>
+            <h3>
+              <FormattedMessage id="home.step1" />
+            </h3>
+            <p>
+              <FormattedMessage id="home.step1_text" />
+            </p>
           </div>
 
           <div>
             <i>2</i>
-            <h3>Choose settings</h3>
-            <p>number and size of screenshots and clips</p>
+            <h3>
+              <FormattedMessage id="home.step2" />
+            </h3>
+            <p>
+              <FormattedMessage id="home.step2_text" />
+            </p>
           </div>
 
           <div>
             <i>3</i>
-            <h3>Done</h3>
-            <p>start browsing even while screenshots are generated</p>
+            <h3>
+              <FormattedMessage id="home.step3" />
+            </h3>
+            <p>
+              <FormattedMessage id="home.step3_text" />
+            </p>
           </div>
         </div>
       </div>
@@ -231,7 +247,9 @@ const IndexPage = ({ data, intl }) => {
         />
 
         <h2>Windows / Mac / Linux</h2>
-        <p>Works the same way no matter what OS you use</p>
+        <p>
+          <FormattedMessage id="home.every_os" />
+        </p>
 
         <div className="download-button-container">
           <Link className="button" to="/download">
@@ -240,7 +258,9 @@ const IndexPage = ({ data, intl }) => {
         </div>
       </section>
 
-      <h1 className="reviews-heading">Some reviews:</h1>
+      <h1 className="reviews-heading">
+        <FormattedMessage id="blog.reviews" />:
+      </h1>
 
       <PullQuote />
     </Layout>

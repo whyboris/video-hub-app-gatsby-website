@@ -86,6 +86,8 @@
   },
   "home": {
     "download": "DOWNLOAD",
+    "easy": "Easy to start",
+    "every_os": "Works the same way no matter what OS you use",
     "feature1": "Preview your videos",
     "feature1_text": "Hover over the thumbnail to see screenshots",
     "feature2": "See as filmstrips",
@@ -97,6 +99,13 @@
     "feature5": "Organize",
     "feature5_text": "Rename, add tags, stars, and description to any video",
     "like_youtube": "Think of it like YouTube for videos on your computer",
+    "many_more": "Many more features",
+    "step1": "Select a folder",
+    "step1_text": "from your computer, external hard drive, or network drive",
+    "step2": "Choose settings",
+    "step2_text": "number and size of screenshots and clips",
+    "step3": "Done",
+    "step3_text": "start browsing even while screenshots are generated",
     "tagline": "Browse, search, and organize your videos",
     "version": "version"
   },
@@ -118,6 +127,11 @@
     "gigazine": "easily manage large number of movies",
     "nkj11": "a great video launcher",
     "softpedia": "a quick, stylish way to manage video content on your computer"
+  },
+  "seo": {
+    "file_organizer": "file organizer",
+    "organize_videos": "organize videos",
+    "video_organizer": "video organizer"
   },
   "share": {
     "appreciate": "I appreciate any donations",
