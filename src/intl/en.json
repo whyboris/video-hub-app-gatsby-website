@@ -84,6 +84,12 @@
     "q3": "Room for more funding – we believe AMF will be able to use additional funds to deliver additional nets.",
     "q4": "Transparency – AMF shares significant information about its work with us and we are able to closely follow and understand its work."
   },
+  "home": {
+    "download": "DOWNLOAD",
+    "like_youtube": "Think of it like YouTube for videos on your computer",
+    "tagline": "Browse, search, and organize your videos",
+    "version": "version"
+  },
   "navigation": {
     "about": "About",
     "blog": "Blog",

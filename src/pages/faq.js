@@ -118,8 +118,11 @@ const FAQ = ({ intl }) => (
 
       <h2>Can I import more than one folder into a single hub?</h2>
       <p>
-        Video Hub App will create a hub from all the folders that are inside a
-        folder you choose. There is no way to tell Video Hub App to import from
+        Video Hub App 3 (to be released late 2020) will let you do that easily.
+      </p>
+      <p>
+        Video Hub App 2 will create a hub from all the folders that are inside a
+        folder you choose. There is no way to tell Video Hub App 2 to import from
         more than one source (starting) folder.
       </p>
       <p>There are two possble solutions:</p>

@@ -452,13 +452,13 @@ section {
   .version {
     bottom: 0;
     color: #666666;
-    display: inline-block;
     font-size: 12px;
     font-style: normal;
     font-weight: bold;
+    left: 100%;
     position: absolute;
-    right: 0;
-    transform: translate(7px, 0px) skew(-8deg);
+    transform: translate(-64px) skew(-8deg);
+    white-space: nowrap;
   }
 
   .win-mac-linux {
@@ -1272,6 +1272,8 @@ nav {
 
     .version {
       font-size: 14px;
+      left: initial;
+      right: 0;
       transform: translate(-42px, 21px) skew(-8deg);
     }
   }
@@ -1303,7 +1305,8 @@ nav {
         font-size: 12vw;
 
         .version {
-          transform: translate(0, 21px) skew(-8deg);
+          font-size: 2.7vw;
+          transform: translate(0, 3vw) skew(-8deg);
         }
       }
     }

@@ -77,16 +77,22 @@ const IndexPage = ({ data, intl }) => {
         <div className="main-title">
           <h1>
             <FormattedMessage id="general.title" />
-            <span className="version">version {latestVersion}</span>
+            <span className="version">
+              <FormattedMessage id="home.version" /> {latestVersion}
+            </span>
           </h1>
-          <p>Think of it like YouTube for videos on your computer</p>
-          <p>Browse, search, and organize your videos</p>
+          <p>
+            <FormattedMessage id="home.like_youtube" />
+          </p>
+          <p>
+            <FormattedMessage id="home.tagline" />
+          </p>
 
           <p className="win-mac-linux">Windows / Mac / Linux</p>
 
           <div className="download-button-container">
             <Link className="button" to="/download">
-              DOWNLOAD
+              <FormattedMessage id="home.download" />
             </Link>
           </div>
         </div>
@@ -97,7 +103,10 @@ const IndexPage = ({ data, intl }) => {
           <div className="image-container">
             <video muted src="/images/1.mp4" loop autoPlay>
               {/* <img alt="video hub app screenshot" src="/images/1.webp" /> */}
-              <Img fluid={data.large1.childImageSharp.fluid} alt="Video Hub App screenshot" />
+              <Img
+                fluid={data.large1.childImageSharp.fluid}
+                alt="Video Hub App screenshot"
+              />
             </video>
           </div>
           <span>
@@ -111,7 +120,10 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/2.webp" /> */}
-            <Img fluid={data.large2.childImageSharp.fluid} alt="Video Hub App screenshot" />
+            <Img
+              fluid={data.large2.childImageSharp.fluid}
+              alt="Video Hub App screenshot"
+            />
           </div>
           <span>
             See as filmstrips
@@ -124,7 +136,10 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview reverse">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/3.webp" /> */}
-            <Img fluid={data.large3.childImageSharp.fluid} alt="Video Hub App screenshot" />
+            <Img
+              fluid={data.large3.childImageSharp.fluid}
+              alt="Video Hub App screenshot"
+            />
           </div>
           <span>
             See all screenshots
@@ -137,7 +152,10 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/4.webp" /> */}
-            <Img fluid={data.large4.childImageSharp.fluid} alt="Video Hub App screenshot" />
+            <Img
+              fluid={data.large4.childImageSharp.fluid}
+              alt="Video Hub App screenshot"
+            />
           </div>
           <span>
             Search and filter
@@ -150,7 +168,10 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview reverse">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/5.webp" /> */}
-            <Img fluid={data.large5.childImageSharp.fluid} alt="Video Hub App screenshot" />
+            <Img
+              fluid={data.large5.childImageSharp.fluid}
+              alt="Video Hub App screenshot"
+            />
           </div>
           <span>
             Organize
@@ -170,7 +191,10 @@ const IndexPage = ({ data, intl }) => {
           src="/images/wizard.webp"
           alt="How to start with Video Hub App"
         ></img> */}
-        <Img fluid={data.wizard.childImageSharp.fluid} alt="Video Hub App screenshot" />
+        <Img
+          fluid={data.wizard.childImageSharp.fluid}
+          alt="Video Hub App screenshot"
+        />
 
         <div className="how-to-use">
           <h2>Easy to start</h2>
@@ -201,14 +225,17 @@ const IndexPage = ({ data, intl }) => {
           alt="works on Windows, Mac, and Linux"
           className="img-responsive"
         /> */}
-        <Img fluid={data.allos.childImageSharp.fluid} alt="Video Hub App screenshot" />
+        <Img
+          fluid={data.allos.childImageSharp.fluid}
+          alt="Video Hub App screenshot"
+        />
 
         <h2>Windows / Mac / Linux</h2>
         <p>Works the same way no matter what OS you use</p>
 
         <div className="download-button-container">
           <Link className="button" to="/download">
-            DOWNLOAD
+            <FormattedMessage id="home.download" />
           </Link>
         </div>
       </section>
@@ -223,55 +250,55 @@ const IndexPage = ({ data, intl }) => {
 export default injectIntl(IndexPage)
 
 export const query = graphql`
-query {
-  large1: file(relativePath: { eq: "large/1.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 450) {
-        ...GatsbyImageSharpFluid
+  query {
+    large1: file(relativePath: { eq: "large/1.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 450) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-  large2: file(relativePath: { eq: "large/2.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 450) {
-        ...GatsbyImageSharpFluid
+    large2: file(relativePath: { eq: "large/2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 450) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-  large3: file(relativePath: { eq: "large/3.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 450) {
-        ...GatsbyImageSharpFluid
+    large3: file(relativePath: { eq: "large/3.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 450) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-  large4: file(relativePath: { eq: "large/4.png" }) {
-    childImageSharp {
-      fluid(maxWidth: 450) {
-        ...GatsbyImageSharpFluid
+    large4: file(relativePath: { eq: "large/4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 450) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-  large5: file(relativePath: { eq: "large/5.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 450) {
-        ...GatsbyImageSharpFluid
+    large5: file(relativePath: { eq: "large/5.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 450) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-  wizard: file(relativePath: { eq: "large/wizard.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 1024) {
-        ...GatsbyImageSharpFluid
+    wizard: file(relativePath: { eq: "large/wizard.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1024) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-  allos: file(relativePath: { eq: "large/all-desktops.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 680) {
-        ...GatsbyImageSharpFluid
+    allos: file(relativePath: { eq: "large/all-desktops.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 680) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-  },
-}
-`;
+  }
+`
