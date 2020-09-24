@@ -7,6 +7,20 @@
     "title": "About",
     "whydonate": "Why donate?"
   },
+  "blog": {
+    "all_news": "All news:",
+    "app_purchase": "app purchase",
+    "btn_donation": "Donation history",
+    "btn_release": "Release history",
+    "donated": "Total donated",
+    "donations": "Donations:",
+    "receipt": "receipt",
+    "released": "released",
+    "releases": "Releases:",
+    "reviews": "Some reviews",
+    "updated": "updated",
+    "version": "Latest version"
+  },
   "contact": {
     "bug": "Bug report",
     "email": "Email address",
@@ -58,6 +72,12 @@
   "notfound": {
     "header": "Page not found",
     "pleasevisit": "Please visit one of these pages:"
+  },
+  "reviews": {
+    "findmysoft": "manage your video collection in a comfortable and efficient manner",
+    "gigazine": "easily manage large number of movies",
+    "nkj11": "a great video launcher",
+    "softpedia": "a quick, stylish way to manage video content on your computer"
   },
   "share": {
     "appreciate": "I appreciate any donations",

@@ -1,18 +1,20 @@
 import React from "react"
 
-const Receipt = ({ data }) => {
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
+
+const Receipt = ({ data, intl }) => {
   return (
     <div className={ "receipt " + (data.currentlyShowing === "releases" ? "hidden" : "")}>
       <span className="date">{data.date}</span>
       <span className="purchase">
         {data.amount}
-        <sup>th</sup> app purchase!
+        <sup>th</sup> {intl.formatMessage({ id: "blog.app_purchase" })} !
       <a className="receipt-link" href={data.receipt}>
-        receipt
+      {intl.formatMessage({ id: "blog.receipt" })}
       </a>
       </span>
     </div>
   )
 }
 
-export default Receipt
+export default injectIntl(Receipt)

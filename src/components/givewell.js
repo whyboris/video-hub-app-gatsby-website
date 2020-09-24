@@ -4,7 +4,7 @@ import Swiper from "react-id-swiper"
 
 import "./swiper.css"
 
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
+import { injectIntl } from "gatsby-plugin-intl"
 
 const GiveWell = ({ intl }) => {
   const params = {

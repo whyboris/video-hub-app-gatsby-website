@@ -42,9 +42,16 @@ const Blog = ({ intl }) => {
 
       <div className="price-container blog-sections">
         <div className="price-box blog-box with-button">
-          <h2 className="pricing-plan">Latest Version</h2>
+          <h2 className="pricing-plan">
+            {" "}
+            {intl.formatMessage({ id: "blog.version" })}
+          </h2>
           <div className="price">{latestVersion}</div>
-          <span className="light">released</span> May 15, 2020
+          <span className="light">
+            {" "}
+            {intl.formatMessage({ id: "blog.released" })}
+          </span>{" "}
+          May 15, 2020
           <hr />
           <span className="donation-description">
             I have been working on version 3 for many months. I am hoping to
@@ -58,16 +65,23 @@ const Blog = ({ intl }) => {
               "btn " + (currentlyShowing === "releases" ? "btn-primary" : "")
             }
           >
-            Release history
+            {intl.formatMessage({ id: "blog.btn_release" })}
           </a>
         </div>
 
         <div className="price-box blog-box with-button">
-          <h2 className="pricing-plan">Total donated</h2>
+          <h2 className="pricing-plan">
+            {" "}
+            {intl.formatMessage({ id: "blog.donated" })}
+          </h2>
           <div className="price">
             <sup className="currency">$</sup>8,000
           </div>
-          <span className="light">updated</span> August 30, 2020
+          <span className="light">
+            {" "}
+            {intl.formatMessage({ id: "blog.updated" })}
+          </span>{" "}
+          August 30, 2020
           <hr />
           <span className="donation-description">
             $3.50 from every purchase goes to the{" "}
@@ -83,38 +97,39 @@ const Blog = ({ intl }) => {
               "btn " + (currentlyShowing === "donations" ? "btn-primary" : "")
             }
           >
-            Donation history
+            {intl.formatMessage({ id: "blog.btn_donation" })}
           </a>
         </div>
 
         <div className="price-box blog-box">
-          <h2 className="pricing-plan">Some reviews</h2>
+          <h2 className="pricing-plan">
+            {intl.formatMessage({ id: "blog.reviews" })}
+          </h2>
           <ul className="pricing-info review-quotes">
             <li>
               <a href="http://nkj2011.blog.fc2.com/blog-entry-599.html">
                 NKJ11
               </a>
-              : "a great video launcher"
+              : "{intl.formatMessage({ id: "reviews.nkj11" })}"
             </li>
 
             <li>
               <a href="https://gigazine.net/news/20180805-video-hub-app-review/">
                 Gigazine
               </a>
-              : "easily manage large number of movies"
+              : "{intl.formatMessage({ id: "reviews.gigazine" })}"
             </li>
 
             <li>
               <a href="https://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Video-Hub-App.shtml">
                 Softpedia
               </a>
-              : "a quick, stylish way to manage video content on your computer"
+              : "{intl.formatMessage({ id: "reviews.softpedia" })}"
             </li>
 
             <li>
-              <a href="http://video-hub-app.findmysoft.com/">FindMySoft</a>:
-              "manage your video collection in a comfortable and efficient
-              manner"
+              <a href="http://video-hub-app.findmysoft.com/">FindMySoft</a>: "
+              {intl.formatMessage({ id: "reviews.findmysoft" })}"
             </li>
           </ul>
         </div>
@@ -123,10 +138,10 @@ const Blog = ({ intl }) => {
       <section className="blog-contents">
         <h1>
           {currentlyShowing === "all"
-            ? "All news:"
+            ? intl.formatMessage({ id: "blog.all_news" })
             : currentlyShowing === "donations"
-            ? "Donations:"
-            : "Releases:"}
+            ? intl.formatMessage({ id: "blog.donations" })
+            : intl.formatMessage({ id: "blog.releases" })}
         </h1>
 
         <Receipt
