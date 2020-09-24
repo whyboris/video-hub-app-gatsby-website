@@ -110,9 +110,9 @@ const IndexPage = ({ data, intl }) => {
             </video>
           </div>
           <span>
-            Preview your videos
+            <FormattedMessage id="home.feature1" />
             <span className="subtext">
-              Hover over the thumbnail to see screenshots
+              <FormattedMessage id="home.feature1_text" />
             </span>
           </span>
         </div>
@@ -126,9 +126,9 @@ const IndexPage = ({ data, intl }) => {
             />
           </div>
           <span>
-            See as filmstrips
+            <FormattedMessage id="home.feature2" />
             <span className="subtext">
-              Filmstrip shows screenshots from each video
+              <FormattedMessage id="home.feature2_text" />
             </span>
           </span>
         </div>
@@ -142,9 +142,9 @@ const IndexPage = ({ data, intl }) => {
             />
           </div>
           <span>
-            See all screenshots
+            <FormattedMessage id="home.feature3" />
             <span className="subtext">
-              All screenshots from each video at once
+              <FormattedMessage id="home.feature3_text" />
             </span>
           </span>
         </div>
@@ -158,9 +158,9 @@ const IndexPage = ({ data, intl }) => {
             />
           </div>
           <span>
-            Search and filter
+            <FormattedMessage id="home.feature4" />
             <span className="subtext">
-              Add any combination of search options to find what you want
+              <FormattedMessage id="home.feature4_text" />
             </span>
           </span>
         </div>
@@ -174,9 +174,9 @@ const IndexPage = ({ data, intl }) => {
             />
           </div>
           <span>
-            Organize
+            <FormattedMessage id="home.feature5" />
             <span className="subtext">
-              Rename, add tags, stars, and description to any video
+              <FormattedMessage id="home.feature5_text" />
             </span>
           </span>
         </div>
