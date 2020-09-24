@@ -11,6 +11,25 @@ import ScrollToTop from "../components/scrolltotop"
 
 import { latestVersion } from "../components/version"
 
+// copied from `about.js`
+const i18nSubstitutions = {
+  intl_givewell: (
+    <>
+      <a href="https://www.givewell.org/charities/top-charities">GiveWell</a>
+    </>
+  ),
+  intl_donated: (
+    <>
+      <a href="https://www.againstmalaria.com/VideoHubApp">$3.50</a>
+    </>
+  ),
+  intl_amf: (
+    <>
+      <a href="http://againstmalaria.com/">Against Malaria Foundation</a>
+    </>
+  ),
+}
+
 type CurrentView = "all" | "donations" | "releases"
 
 let currentlyShowing: CurrentView = "all"
@@ -84,10 +103,15 @@ const Blog = ({ intl }) => {
           August 30, 2020
           <hr />
           <span className="donation-description">
-            $3.50 from every purchase goes to the{" "}
-            <a href="http://againstmalaria.com/">Against Malaria Foundation</a>,
-            a top-rated charity by <a href="http://givewell.org/">GiveWell</a>.{" "}
-            <Link to="/about">Read more</Link> about donations
+            <FormattedMessage
+              id="blog.donation_text"
+              values={i18nSubstitutions}
+            >
+              {(...chunks) => <p>{chunks}</p>}
+            </FormattedMessage>
+            <Link to="/about">
+              {intl.formatMessage({ id: "blog.read_more" })}
+            </Link>
           </span>
           <a
             id="donationButton"
