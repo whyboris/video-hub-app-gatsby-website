@@ -104,11 +104,6 @@
     "q3_answer": "Answer goes here",
     "title": "Frequently Asked Questions | FAQ"
   },
-  "features": {
-    "feature1": "Feature 1",
-    "feature2": "Feature 2",
-    "feature3": "Feature 3"
-  },
   "general": {
     "description": "Browse, search, and organize your videos",
     "title": "Video Hub App"
@@ -151,6 +146,7 @@
     "download": "Download",
     "faq": "FAQ",
     "home": "Home",
+    "please_share": "Please share",
     "share": "Share"
   },
   "notfound": {

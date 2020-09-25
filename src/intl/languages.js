@@ -8,7 +8,7 @@ const LanguageList = [
   // `ha`, // Hausa
   // `hi`, // Hindi
   // `it`, // Italian
-  // `ja`, // Japanese
+  `ja`, // Japanese
   // `ko`, // Korean
   // `pt`, // Portuguese (Portugal, Brazil)
   // `ru`, // Russian

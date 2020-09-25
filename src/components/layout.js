@@ -98,55 +98,55 @@ const Layout = ({ children, intl }) => {
 
         <nav className="outer-nav right vertical">
           <Link to="/" className="my-icon-home" activeClassName="current-page">
-            Home
+            {intl.formatMessage({ id: "navigation.home" })}
           </Link>
           <Link
             to="/download"
             className="my-icon-download"
             activeClassName="current-page"
           >
-            Download
+            {intl.formatMessage({ id: "navigation.download" })}
           </Link>
           <Link
             to="/share"
             className="my-icon-heart"
             activeClassName="current-page"
           >
-            Share
+            {intl.formatMessage({ id: "navigation.share" })}
           </Link>
           <Link
             to="/blog"
             className="my-icon-news"
             activeClassName="current-page"
           >
-            Blog
+            {intl.formatMessage({ id: "navigation.blog" })}
           </Link>
           <Link
             to="/faq"
             className="my-icon-star"
             activeClassName="current-page"
           >
-            FAQ
+            {intl.formatMessage({ id: "navigation.faq" })}
           </Link>
           <Link
             to="/about"
             className="my-icon-info-large"
             activeClassName="current-page"
           >
-            About
+            {intl.formatMessage({ id: "navigation.about" })}
           </Link>
           <Link
             to="/contact"
             className="my-icon-mail"
             activeClassName="current-page"
           >
-            Contact
+            {intl.formatMessage({ id: "navigation.contact" })}
           </Link>
 
           <br />
           <br />
           <a href="#" className="please-share">
-            Please share
+            {intl.formatMessage({ id: "navigation.please_share" })}
           </a>
           <a
             className="my-icon-social-facebook"
