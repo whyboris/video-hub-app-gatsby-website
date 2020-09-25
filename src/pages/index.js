@@ -35,7 +35,7 @@ const IndexPage = ({ data, intl }) => {
     <Layout>
       <SEO
         lang={intl.locale}
-        title={intl.formatMessage({ id: "general.title" })}
+        title="Video Hub App"
         description={intl.formatMessage({ id: "general.description" })}
         keywords={[
           `Video Hub App`,
