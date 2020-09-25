@@ -1,7 +1,9 @@
 // this order dictates the dropdown order and what gets shown
 const LanguageList = [
   `ar`, // Arabic
+  `bn`, // Bengali
   `zh`, // Cheneze (Simplified)
+  `cs`, // Czech
   `en`, // English
   `fr`, // French
   `de`, // German
@@ -10,11 +12,14 @@ const LanguageList = [
   `it`, // Italian
   `ja`, // Japanese
   `ko`, // Korean
+  `ms`, // Malay
   `pt`, // Portuguese (Portugal, Brazil)
   `ru`, // Russian
   `es`, // Spanish
   `tr`, // Turkish
+  `uk`, // Ukrainian
   `ur`, // Urdu
+  `vi`, // Vietnamese
   // `id`, // ID -- identify the felds
 ];
 
@@ -23,6 +28,14 @@ const languageSetup = {
   ar: {
     english: `Arabic`,
     native: `عربى`
+  },
+  bn: {
+    english: `Bengali`,
+    native: `বাংলা`
+  },
+  cs: {
+    english: `Czech`,
+    native: `Česky`
   },
   de: {
     english: `German`,
@@ -64,6 +77,10 @@ const languageSetup = {
     english: `Korean`,
     native: `한국어`
   },
+  ms: {
+    english: `Malay`,
+    native: `Melayu`
+  },
   pt: {
     english: `Portuguese`,
     native: `Português`
@@ -76,9 +93,17 @@ const languageSetup = {
     english: `Turkish`,
     native: `Türkçe`
   },
+  uk: {
+    english: `Ukrainian`,
+    native: `Українська`
+  },
   ur: {
     english: `Urdu`,
     native: ` اردو`
+  },
+  vi: {
+    english: `Vietnamese`,
+    native: `Tiếng Việt`
   },
   zh: {
     english: `Chinese`,
