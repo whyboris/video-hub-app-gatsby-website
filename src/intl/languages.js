@@ -1,20 +1,20 @@
 // this order dictates the dropdown order and what gets shown
 const LanguageList = [
-  // `ar`, // Arabic
-  // `zh`, // Cheneze (Simplified)
+  `ar`, // Arabic
+  `zh`, // Cheneze (Simplified)
   `en`, // English
-  // `fr`, // French
-  // `de`, // German
-  // `ha`, // Hausa
-  // `hi`, // Hindi
-  // `it`, // Italian
+  `fr`, // French
+  `de`, // German
+  `ha`, // Hausa
+  `hi`, // Hindi
+  `it`, // Italian
   `ja`, // Japanese
-  // `ko`, // Korean
-  // `pt`, // Portuguese (Portugal, Brazil)
-  // `ru`, // Russian
-  // `es`, // Spanish
-  // `tr`, // Turkish
-  // `ur`, // Urdu
+  `ko`, // Korean
+  `pt`, // Portuguese (Portugal, Brazil)
+  `ru`, // Russian
+  `es`, // Spanish
+  `tr`, // Turkish
+  `ur`, // Urdu
   // `id`, // ID -- identify the felds
 ];
 

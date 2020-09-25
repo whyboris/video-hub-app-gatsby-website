@@ -74,7 +74,7 @@ const IndexPage = ({ data, intl }) => {
 
         <div className="main-title">
           <h1>
-            <FormattedMessage id="general.title" />
+            Video Hub App
             <span className="version">
               <FormattedMessage id="home.version" /> {latestVersion}
             </span>
