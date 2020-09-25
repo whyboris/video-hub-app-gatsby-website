@@ -8,7 +8,7 @@ import { injectIntl } from "gatsby-plugin-intl"
 
 import FeatureList from "./featureList"
 
-const Carousel = ({ data }) => {
+const Carousel = ({ data, intl }) => {
   const params = {
     loop: true,
     pagination: {
@@ -34,14 +34,14 @@ const Carousel = ({ data }) => {
           data={{
             // img: "/images/features/1.webp",
             img: "/images/features/1.jpg",
-            heading: "Search by:",
+            heading: intl.formatMessage({ id: "carousel.search_by" }),
             features: [
-              "Folder name",
-              "File name",
-              "Tag",
-              "Fuzzy search",
-              "Regex search",
-              "... and more"
+              intl.formatMessage({ id: "carousel.search_by1" }),
+              intl.formatMessage({ id: "carousel.search_by2" }),
+              intl.formatMessage({ id: "carousel.search_by3" }),
+              intl.formatMessage({ id: "carousel.search_by4" }),
+              intl.formatMessage({ id: "carousel.search_by5" }),
+              intl.formatMessage({ id: "carousel.and_more" }),
             ],
             mirror: false,
           }}
@@ -53,14 +53,14 @@ const Carousel = ({ data }) => {
           data={{
             // img: "/images/features/2.webp",
             img: "/images/features/2.jpg",
-            heading: "Sort by:",
+            heading: intl.formatMessage({ id: "carousel.sort_by" }),
             features: [
-              "File size",
-              "Duration",
-              "Star rating",
-              "Date created",
-              "Date modified",
-              "... and more",
+              intl.formatMessage({ id: "carousel.sort_by1" }),
+              intl.formatMessage({ id: "carousel.sort_by2" }),
+              intl.formatMessage({ id: "carousel.sort_by3" }),
+              intl.formatMessage({ id: "carousel.sort_by4" }),
+              intl.formatMessage({ id: "carousel.sort_by5" }),
+              intl.formatMessage({ id: "carousel.and_more" }),
             ],
             mirror: false,
           }}
@@ -72,14 +72,14 @@ const Carousel = ({ data }) => {
           data={{
             // img: "/images/features/3.webp",
             img: "/images/features/3.jpg",
-            heading: "Tags:",
+            heading: intl.formatMessage({ id: "carousel.tags" }),
             features: [
-              "Add your own tags to videos",
-              "Batch tagging",
-              "Drag and drop to add tags",
-              "Tag auto-complete when adding or searching",
-              "Add year tag",
-              "Add any description text",
+              intl.formatMessage({ id: "carousel.tags1" }),
+              intl.formatMessage({ id: "carousel.tags2" }),
+              intl.formatMessage({ id: "carousel.tags3" }),
+              intl.formatMessage({ id: "carousel.tags4" }),
+              intl.formatMessage({ id: "carousel.tags5" }),
+              intl.formatMessage({ id: "carousel.and_more" }),
             ],
             mirror: false,
           }}
@@ -91,14 +91,14 @@ const Carousel = ({ data }) => {
           data={{
             // img: "/images/features/4.webp",
             img: "/images/features/4.jpg",
-            heading: "More:",
+            heading: intl.formatMessage({ id: "carousel.more" }),
             features: [
-              "Find duplicates",
-              "Rename files",
-              "Extract video clips",
-              "Folder navigation",
-              "Custom thumbnails",
-              "Open video from screenshot you click",
+              intl.formatMessage({ id: "carousel.more1" }),
+              intl.formatMessage({ id: "carousel.more2" }),
+              intl.formatMessage({ id: "carousel.more3" }),
+              intl.formatMessage({ id: "carousel.more4" }),
+              intl.formatMessage({ id: "carousel.more5" }),
+              intl.formatMessage({ id: "carousel.more6" }),
             ],
             mirror: false,
           }}
@@ -110,14 +110,14 @@ const Carousel = ({ data }) => {
           data={{
             // img: "/images/features/5.webp",
             img: "/images/features/5.jpg",
-            heading: "And more:",
+            heading: intl.formatMessage({ id: "carousel.moremore" }),
             features: [
-              "Translations into 16 languages",
-              "Touch bar support on Mac",
-              "Delete file option",
-              "Create playlist of all videos",
-              "Drag video into video editor",
-              "... and more"
+              intl.formatMessage({ id: "carousel.moremore1" }),
+              intl.formatMessage({ id: "carousel.moremore2" }),
+              intl.formatMessage({ id: "carousel.moremore3" }),
+              intl.formatMessage({ id: "carousel.moremore4" }),
+              intl.formatMessage({ id: "carousel.moremore5" }),
+              intl.formatMessage({ id: "carousel.and_more" }),
             ],
             mirror: false,
           }}
