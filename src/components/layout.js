@@ -43,11 +43,11 @@ const Layout = ({ children, intl }) => {
         </span>
       </button>
 
-      <div id="perspective" className="perspective effect-moveleft">
+      <div id="perspective" className={"perspective effect-moveleft" + (intl.locale === "en" ? " en-version" : "")}>
         <div className="containerNAV">
           <div className="wrapper" id="clickHack">
             <div className="body-contents">
-              <main className={intl.locale === "ar" ? "rtl-version" : ""}>
+              <main>
                 {children}
               </main>
 

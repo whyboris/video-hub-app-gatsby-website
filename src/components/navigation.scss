@@ -89,7 +89,7 @@ body,
 }
 
 .outer-nav.vertical {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -102,7 +102,9 @@ body,
 }
 
 .outer-nav.right {
-  right: 25%;
+  // font-size: 2vw;
+  // right: 25%;
+  left: 50%;
 }
 
 .outer-nav.top {
@@ -119,6 +121,7 @@ body,
   font-weight: 300;
   margin: 0 0 0 0;
   padding: 15px;
+  // padding: 0.6vw;
   /* color: #fff; */
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
@@ -281,15 +284,21 @@ body,
 
 /* Media Queries */
 
+// @media only screen and (max-width: 1000px) {
+//   .outer-nav.right {
+//     right: 15%;
+//   }
+// }
+
 @media screen and (max-width: 600px), (max-height: 600px) {
   .outer-nav.vertical {
     font-size: 1.2em;
     width: 6.8em;
   }
 
-  .outer-nav.right {
-    right: 15%;
-  }
+  // .outer-nav.right {
+  //   right: 15%;
+  // }
 
   .outer-nav a {
     padding: 5px;
