@@ -1,484 +1,114 @@
 {
-  "timestamp": 1600411680799,
-  "hash": "5bc147d0dfb2923a763f8be06a4ff5cd",
   "assets": {
-    "/en/404/": {
-      "/fonts/roboto.woff2": true,
+    "/ar/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ar/404.html": {
       "/fonts/typicons-custom.woff2": true
     },
     "/ar/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/zh/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/fr/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/de/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ha/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/404/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/404/": {
-      "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
     "/ar/about/": {
-      "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/zh/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/en/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/fr/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/de/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ha/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/about/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/en/contact/": {
-      "/fonts/roboto.woff2": true,
+    "/ar/blog/": {
       "/fonts/typicons-custom.woff2": true
     },
     "/ar/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/zh/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/fr/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/de/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ha/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/contact/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/contact/": {
-      "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
     "/ar/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/zh/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/en/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/fr/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/de/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ha/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/download/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/en/faq/": {
-      "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
     "/ar/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/zh/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/fr/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/de/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ha/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/faq/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ar/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/zh/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/en/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/fr/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/de/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ha/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/en/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ar/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/zh/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/fr/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/de/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ha/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/news/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/en/share/": {
-      "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
     "/ar/share/": {
-      "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/zh/share/": {
-      "/fonts/roboto.woff2": true,
+    "/bn/": {
       "/fonts/typicons-custom.woff2": true
     },
-    "/fr/share/": {
-      "/fonts/roboto.woff2": true,
+    "/bn/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/bn/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/bn/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/bn/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/bn/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/bn/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/bn/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/bn/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/cs/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/de/faq/": {
       "/fonts/typicons-custom.woff2": true
     },
     "/de/share/": {
-      "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/ha/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/hi/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/it/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ja/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/es/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/tr/share/": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ur/share/": {
+    "/en/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
@@ -486,61 +116,440 @@
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/ar/404.html": {
+    "/en/404/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/zh/404.html": {
+    "/en/about/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/fr/404.html": {
+    "/en/blog/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/de/404.html": {
+    "/en/contact/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/ha/404.html": {
+    "/en/download/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/hi/404.html": {
+    "/en/faq/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/it/404.html": {
+    "/en/share/": {
       "/fonts/roboto.woff2": true,
       "/fonts/typicons-custom.woff2": true
     },
-    "/ja/404.html": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ko/404.html": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/pt/404.html": {
-      "/fonts/roboto.woff2": true,
-      "/fonts/typicons-custom.woff2": true
-    },
-    "/ru/404.html": {
-      "/fonts/roboto.woff2": true,
+    "/es/": {
       "/fonts/typicons-custom.woff2": true
     },
     "/es/404.html": {
-      "/fonts/roboto.woff2": true,
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/es/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/es/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/es/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/es/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/es/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/es/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/es/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/fr/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ha/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/hi/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/it/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ja/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ko/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ms/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/pt/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ru/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/": {
       "/fonts/typicons-custom.woff2": true
     },
     "/tr/404.html": {
-      "/fonts/roboto.woff2": true,
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/tr/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/uk/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/": {
       "/fonts/typicons-custom.woff2": true
     },
     "/ur/404.html": {
-      "/fonts/roboto.woff2": true,
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/ur/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/vi/share/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/404.html": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/404/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/about/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/blog/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/contact/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/download/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/faq/": {
+      "/fonts/typicons-custom.woff2": true
+    },
+    "/zh/share/": {
       "/fonts/typicons-custom.woff2": true
     }
-  }
+  },
+  "hash": "9e0e2f225e5b552fbf71dbbf1084882a",
+  "timestamp": 1602345501661
 }
