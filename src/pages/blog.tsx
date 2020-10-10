@@ -100,7 +100,7 @@ const Blog = ({ intl }) => {
             {" "}
             {intl.formatMessage({ id: "blog.updated" })}
           </span>{" "}
-          August 30, 2020
+          October 9, 2020
           <hr />
           <span className="donation-description">
             <FormattedMessage
