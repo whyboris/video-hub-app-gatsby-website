@@ -94,7 +94,7 @@ const Blog = ({ intl }) => {
             {intl.formatMessage({ id: "blog.donated" })}
           </h2>
           <div className="price">
-            <sup className="currency">$</sup>8,000
+            <sup className="currency">$</sup>7,350
           </div>
           <span className="light">
             {" "}
@@ -167,6 +167,16 @@ const Blog = ({ intl }) => {
             ? intl.formatMessage({ id: "blog.donations" })
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
+
+        <Receipt
+          data={{
+            currentlyShowing,
+            amount: "2,100",
+            date: "Oct 9, 2020",
+            receipt:
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=625733",
+          }}
+        />
 
         <Receipt
           data={{
