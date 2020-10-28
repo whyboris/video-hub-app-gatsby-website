@@ -145,6 +145,11 @@ const Download = ({ intl }) => (
       </FormattedMessage>
 
       <Link to="/about">{intl.formatMessage({ id: "blog.read_more" })}</Link>
+
+      <h2>{intl.formatMessage({ id: "share.thankyou" })}</h2>
+
+      <p>This software uses <a href="https://ffmpeg.org">FFmpeg</a></p>
+
     </section>
   </Layout>
 )
