@@ -13,6 +13,7 @@ const LanguageList = [
   `ja`, // Japanese
   `ko`, // Korean
   `ms`, // Malay
+  `pl`, // Polish
   `pt`, // Portuguese (Portugal, Brazil)
   `ru`, // Russian
   `es`, // Spanish
@@ -84,6 +85,10 @@ const languageSetup = {
   pt: {
     english: `Portuguese`,
     native: `Português`
+  },
+  pl: {
+    english: `Polish`,
+    native: `Polski`
   },
   ru: {
     english: `Russian`,
