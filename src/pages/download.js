@@ -136,7 +136,7 @@ const Download = ({ intl }) => (
 
       <h2>{intl.formatMessage({ id: "download.after" })}</h2>
 
-      <p>{intl.formatMessage({ id: "download.after_text" })}</p>
+      <p>{intl.formatMessage({ id: "download.after_text" })} <a href="https://my.videohubapp.com/">my.videohubapp.com</a></p>
 
       <h2>{intl.formatMessage({ id: "download.whypay" })}</h2>
 
