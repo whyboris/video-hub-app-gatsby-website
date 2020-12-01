@@ -70,11 +70,10 @@ const Blog = ({ intl }) => {
             {" "}
             {intl.formatMessage({ id: "blog.released" })}
           </span>{" "}
-          May 15, 2020
+          Nov 30, 2020
           <hr />
           <span className="donation-description">
-            I have been working on version 3 for many months. I am hoping to
-            release it before 2020 is over.
+            I just released version 3. Please let me know if you come across any bugs!
           </span>
           <a
             id="releasesButton"
@@ -167,6 +166,25 @@ const Blog = ({ intl }) => {
             ? intl.formatMessage({ id: "blog.donations" })
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
+
+        <Release
+          data={{
+            currentlyShowing,
+            date: "Nov 30, 2020",
+            features: [
+              "More than one input / source folder per hub",
+              "'Watch folder' live for updates",
+              "Bottom tray with Word cloud, Recently played, Details and other tabs",
+              "Set custom keyboard shortcuts",
+              "Single / double click mode toggle",
+              "Many more smaller features",
+            ],
+            bugfixes: ["Too many to list"],
+            version: "3.0.0",
+            notes:
+              "If you purchased the app before, visit my.videohubapp.com",
+          }}
+        />
 
         <Receipt
           data={{
