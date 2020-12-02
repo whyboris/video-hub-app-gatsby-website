@@ -167,6 +167,16 @@ const Blog = ({ intl }) => {
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
 
+        <Receipt
+          data={{
+            currentlyShowing,
+            amount: "2,300",
+            date: "Dec 2, 2020",
+            receipt:
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=639687",
+          }}
+        />
+
         <Release
           data={{
             currentlyShowing,
