@@ -2,7 +2,7 @@
 
 [Video Hub App](https://videohubapp.com/) is the fastest way to browse, search, and organize videos on your computer. Think of it like YouTube for videos on your computer: browse, search, and preview. Works on Windows, Mac, and Linux!
 
-![Video Hub App](https://videohubapp.com/images/4.jpg)
+![video-hub-app](https://user-images.githubusercontent.com/17264277/82097107-3ed91700-96d0-11ea-8679-87fa3e07cd0b.jpg)
 
 ## This repository
 
