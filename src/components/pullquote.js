@@ -53,6 +53,13 @@ const PullQuote = ({ intl }) => {
               <a href="http://video-hub-app.findmysoft.com/">FindMySoft</a>
             </span>
           </div>
+
+          <div className="pull-quote">
+            "{intl.formatMessage({ id: "reviews.filecroco" })}"
+            <span className="quote-author">
+              <a href="https://www.filecroco.com/download-video-hub-app/">FileCroco</a>
+            </span>
+          </div>
         </Swiper>
       </div>
     </>

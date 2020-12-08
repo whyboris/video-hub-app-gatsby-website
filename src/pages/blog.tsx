@@ -149,7 +149,14 @@ const Blog = ({ intl }) => {
               </a>
               : "{intl.formatMessage({ id: "reviews.softpedia" })}"
             </li>
-
+{/*
+            <li>
+              <a href="https://www.filecroco.com/download-video-hub-app/">
+                FileCroco
+              </a>
+              : "{intl.formatMessage({ id: "reviews.filecroco" })}"
+            </li>
+*/}
             <li>
               <a href="http://video-hub-app.findmysoft.com/">FindMySoft</a>: "
               {intl.formatMessage({ id: "reviews.findmysoft" })}"
