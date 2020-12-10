@@ -419,7 +419,7 @@ const Blog = ({ intl }) => {
         <Release
           data={{
             currentlyShowing,
-            date: "Oct 18, 2018",
+            date: "Oct 18, 2019",
             features: [
               "Tags 🎉 add your own tags to any video",
               "Choose number of screenshots per video",
