@@ -57,7 +57,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:image`,
-          content: `/images/splash.jpg`,
+          content: `https://videohubapp.com/images/splash.jpg`,
         },
         {
           name: `twitter:creator`,
