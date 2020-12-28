@@ -93,7 +93,7 @@ const Blog = ({ intl }) => {
             {intl.formatMessage({ id: "blog.donated" })}
           </h2>
           <div className="price">
-            <sup className="currency">$</sup>8,400
+            <sup className="currency">$</sup>8,750
           </div>
           <span className="light">
             {" "}
