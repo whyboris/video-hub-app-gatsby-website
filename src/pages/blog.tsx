@@ -177,6 +177,16 @@ const Blog = ({ intl }) => {
         <Receipt
           data={{
             currentlyShowing,
+            amount: "2,500",
+            date: "Dec 28, 2020",
+            receipt:
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=648968",
+          }}
+        />
+
+        <Receipt
+          data={{
+            currentlyShowing,
             amount: "2,400",
             date: "Dec 7, 2020",
             receipt:
