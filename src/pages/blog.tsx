@@ -73,7 +73,7 @@ const Blog = ({ intl }) => {
           Nov 30, 2020
           <hr />
           <span className="donation-description">
-            I just released version 3. Please let me know if you come across any bugs!
+            Version 3.1.0 coming shortly: will fix network drive initial slow scan. New feature: remote control through your phone!
           </span>
           <a
             id="releasesButton"
@@ -99,7 +99,7 @@ const Blog = ({ intl }) => {
             {" "}
             {intl.formatMessage({ id: "blog.updated" })}
           </span>{" "}
-          November 10, 2020
+          December 28, 2020
           <hr />
           <span className="donation-description">
             <FormattedMessage
