@@ -34,6 +34,9 @@ type CurrentView = "all" | "donations" | "releases"
 
 let currentlyShowing: CurrentView = "all"
 
+const TOTAL_DONATION_DOLLAR_AMOUNT: string = '9,100'
+const LAST_DONATION_DATE: string = 'January 19, 2021'
+
 const Blog = ({ intl }) => {
   function toggleReleases() {
     toggleView("releases")
@@ -93,13 +96,13 @@ const Blog = ({ intl }) => {
             {intl.formatMessage({ id: "blog.donated" })}
           </h2>
           <div className="price">
-            <sup className="currency">$</sup>8,750
+            <sup className="currency">$</sup>{ TOTAL_DONATION_DOLLAR_AMOUNT }
           </div>
           <span className="light">
             {" "}
             {intl.formatMessage({ id: "blog.updated" })}
           </span>{" "}
-          December 28, 2020
+          { LAST_DONATION_DATE }
           <hr />
           <span className="donation-description">
             <FormattedMessage
@@ -173,6 +176,16 @@ const Blog = ({ intl }) => {
             ? intl.formatMessage({ id: "blog.donations" })
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
+
+        <Receipt
+          data={{
+            currentlyShowing,
+            amount: "2,600",
+            date: "Jan 19, 2021",
+            receipt:
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=690757",
+          }}
+        />
 
         <Receipt
           data={{
