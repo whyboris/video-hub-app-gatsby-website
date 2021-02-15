@@ -34,8 +34,9 @@ type CurrentView = "all" | "donations" | "releases"
 
 let currentlyShowing: CurrentView = "all"
 
-const TOTAL_DONATION_DOLLAR_AMOUNT: string = '9,100'
-const LAST_DONATION_DATE: string = 'January 19, 2021'
+const TOTAL_DONATION_DOLLAR_AMOUNT: string = '9,450'
+const LAST_DONATION_DATE: string = 'February 14, 2021'
+const LAST_RELEASE_DATE: string = 'Nov 30, 2020'
 
 const Blog = ({ intl }) => {
   function toggleReleases() {
@@ -73,10 +74,10 @@ const Blog = ({ intl }) => {
             {" "}
             {intl.formatMessage({ id: "blog.released" })}
           </span>{" "}
-          Nov 30, 2020
+          { LAST_RELEASE_DATE }
           <hr />
           <span className="donation-description">
-            Version 3.1.0 coming shortly: will fix network drive initial slow scan. New feature: remote control through your phone!
+            Version 3.1.0 coming this month: will fix network drive initial slow scan. New feature: remote control through your phone!
           </span>
           <a
             id="releasesButton"
@@ -176,6 +177,16 @@ const Blog = ({ intl }) => {
             ? intl.formatMessage({ id: "blog.donations" })
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
+
+        <Receipt
+          data={{
+            currentlyShowing,
+            amount: "2,700",
+            date: "Feb 14, 2021",
+            receipt:
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=698626",
+          }}
+        />
 
         <Receipt
           data={{
