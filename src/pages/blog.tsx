@@ -36,7 +36,7 @@ let currentlyShowing: CurrentView = "all"
 
 const TOTAL_DONATION_DOLLAR_AMOUNT: string = '9,450'
 const LAST_DONATION_DATE: string = 'February 14, 2021'
-const LAST_RELEASE_DATE: string = 'Nov 30, 2020'
+const LAST_RELEASE_DATE: string = 'Feb 20, 2021'
 
 const Blog = ({ intl }) => {
   function toggleReleases() {
@@ -77,7 +77,7 @@ const Blog = ({ intl }) => {
           { LAST_RELEASE_DATE }
           <hr />
           <span className="donation-description">
-            Version 3.1.0 coming this month: will fix network drive initial slow scan. New feature: remote control through your phone!
+            Please feel free to send feedback and feature requests. Busy year for me ahead but I will try to add more features.
           </span>
           <a
             id="releasesButton"
