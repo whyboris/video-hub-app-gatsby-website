@@ -203,5 +203,10 @@
     "thankyoutext": "Quảng cáo ứng dụng là một kỹ năng của riêng mình và các công ty chi rất nhiều tiền cho nó. Tôi là một nhà phát triển duy nhất và sẽ chân thành đánh giá cao nếu bạn chia sẻ từ về ứng dụng của tôi",
     "title": "Chia sẻ",
     "upvote": "Xin vui lòng ủng hộ"
+  },
+  "thankyou": {
+    "linkdescription": "Để tải xuống các bản cập nhật trong tương lai: trong email, bạn sẽ thấy đơn đặt hàng 'Tham khảo: #' mà bạn có thể sử dụng để tải xuống phiên bản mới nhất từ trang web này:",
+    "thankyoutext": "Cảm ơn bạn đã mua Ứng dụng Hub Video. Bạn sẽ nhận được một email với các liên kết tải xuống trong vòng vài phút.",
+    "title": "cám ơn vì đã mua hàng"
   }
 }

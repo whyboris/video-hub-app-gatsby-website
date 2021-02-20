@@ -203,5 +203,10 @@
     "thankyoutext": "Promowanie aplikacji to umiejętność sama w sobie, a firmy wydają na nią dużo pieniędzy. Jestem samodzielnym programistą i byłbym wdzięczny za podzielenie się opinią o mojej aplikacji",
     "title": "Dzielić",
     "upvote": "Proszę o głosowanie"
+  },
+  "thankyou": {
+    "linkdescription": "To download updates in the future: in the email you should see an order 'Ref: #' which you can use to download the latest version from this website:",
+    "thankyoutext": "Thank you for purchasing Video Hub App. You should receive an email with the download links within a few minutes.",
+    "title": "Thank you for your purchase"
   }
 }

@@ -4,6 +4,7 @@ const LanguageList = [
   `bn`, // Bengali
   `zh`, // Cheneze (Simplified)
   `cs`, // Czech
+  `nl`, // Dutch - Nederlands
   `en`, // English
   `fr`, // French
   `de`, // German
@@ -81,6 +82,10 @@ const languageSetup = {
   ms: {
     english: `Malay`,
     native: `Melayu`
+  },
+  nl: {
+    english: `Dutch`,
+    native: `Nederlands`
   },
   pt: {
     english: `Portuguese`,
