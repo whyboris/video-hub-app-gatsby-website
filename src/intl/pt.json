@@ -203,5 +203,10 @@
     "thankyoutext": "Promover o aplicativo é uma habilidade própria e as empresas gastam muito dinheiro com isso. Sou um único desenvolvedor e agradeceria sinceramente se você compartilhasse a palavra sobre meu aplicativo",
     "title": "Compartilhar",
     "upvote": "Por favor, vote positivamente"
+  },
+  "thankyou": {
+    "linkdescription": "To download updates in the future: in the email you should see an order 'Ref: #' which you can use to download the latest version from this website:",
+    "thankyoutext": "Thank you for purchasing Video Hub App. You should receive an email with the download links within a few minutes.",
+    "title": "Thank you for your purchase"
   }
 }

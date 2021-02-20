@@ -203,5 +203,10 @@
     "thankyoutext": "Uygulamayı tanıtmak başlı başına bir beceridir ve şirketler buna çok para harcar. Ben tek bir geliştiriciyim ve uygulamamla ilgili sözler paylaşırsanız içtenlikle teşekkür ederim",
     "title": "Paylaş",
     "upvote": "Lütfen oy verin"
+  },
+  "thankyou": {
+    "linkdescription": "To download updates in the future: in the email you should see an order 'Ref: #' which you can use to download the latest version from this website:",
+    "thankyoutext": "Thank you for purchasing Video Hub App. You should receive an email with the download links within a few minutes.",
+    "title": "Thank you for your purchase"
   }
 }

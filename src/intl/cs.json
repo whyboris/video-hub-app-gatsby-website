@@ -203,5 +203,10 @@
     "thankyoutext": "Propagace aplikace je jeho vlastní dovednost a společnosti za ni utrácejí spoustu peněz. Jsem jediný vývojář a upřímně bych ocenil, kdybyste sdíleli slovo o mé aplikaci",
     "title": "Podíl",
     "upvote": "Prosím, hlasujte"
+  },
+  "thankyou": {
+    "linkdescription": "Chcete-li si stáhnout aktualizace v budoucnu: v e-mailu byste měli vidět objednávku „Ref: #“, kterou můžete použít ke stažení nejnovější verze z tohoto webu:",
+    "thankyoutext": "Děkujeme, že jste si zakoupili aplikaci Video Hub. Do několika minut byste měli dostat e-mail s odkazy na stahování.",
+    "title": "Děkuji za Váš nákup"
   }
 }

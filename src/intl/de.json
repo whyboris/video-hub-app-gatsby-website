@@ -203,5 +203,10 @@
     "thankyoutext": "Die Werbung für die App ist eine eigene Fähigkeit, und Unternehmen geben viel Geld dafür aus. Ich bin ein einzelner Entwickler und würde mich sehr freuen, wenn Sie das Wort über meine App teilen",
     "title": "Teilen",
     "upvote": "Bitte stimme zu"
+  },
+  "thankyou": {
+    "linkdescription": "So laden Sie Updates in Zukunft herunter: In der E-Mail sollte eine Bestellung 'Ref: #' angezeigt werden, mit der Sie die neueste Version von dieser Website herunterladen können:",
+    "thankyoutext": "Vielen Dank, dass Sie sich für die Video Hub App entschieden haben. Sie sollten innerhalb weniger Minuten eine E-Mail mit den Download-Links erhalten.",
+    "title": "Danke für Ihren Einkauf"
   }
 }
