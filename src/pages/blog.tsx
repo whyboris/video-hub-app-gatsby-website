@@ -173,6 +173,26 @@ const Blog = ({ intl }) => {
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
 
+        <Release
+          data={{
+            currentlyShowing,
+            date: "Feb 20, 2020",
+            features: [
+              "Remote control (use phone or tablet with the app)",
+              "Support MPV video player",
+              "extract FPS and sort by it",
+              "times played filter",
+            ],
+            bugfixes: [
+              "scanning remote drives is fast and without error",
+              "Mac copy/paste works",
+              "some more minor bugfixes",
+            ],
+            version: "3.1.0",
+            notes: "If you purchased the app before, visit my.videohubapp.com",
+          }}
+        />
+
         <Receipt
           data={{
             currentlyShowing,
