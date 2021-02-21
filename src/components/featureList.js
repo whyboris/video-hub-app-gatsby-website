@@ -1,6 +1,6 @@
 import React from "react"
 
-import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
+import { injectIntl } from "gatsby-plugin-intl"
 
 const FeatureList = ({ data }) => {
   return (

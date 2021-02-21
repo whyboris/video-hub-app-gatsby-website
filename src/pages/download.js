@@ -62,9 +62,9 @@ const Download = ({ intl }) => (
           version: latestVersion,
           size: "66mb",
           link:
-            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.0.0/Video.Hub.App.3.Setup.3.0.0-demo.exe",
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3.Setup.3.1.0-demo.exe",
           portable:
-            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.0.0/Video.Hub.App.3.3.0.0-demo.exe",
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3.3.1.0-demo.exe",
         }}
       />
 
@@ -74,7 +74,7 @@ const Download = ({ intl }) => (
           version: latestVersion,
           size: "107mb",
           link:
-            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.0.0/Video.Hub.App.3-3.0.0-demo.dmg",
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3-3.1.0-demo.dmg",
         }}
       />
 
@@ -84,7 +84,7 @@ const Download = ({ intl }) => (
           version: latestVersion,
           size: "117mb",
           link:
-            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.0.0/Video.Hub.App.3-3.0.0-demo.AppImage",
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3-3.1.0-demo.AppImage",
         }}
       />
 

@@ -34,16 +34,16 @@ type CurrentView = "all" | "donations" | "releases"
 
 let currentlyShowing: CurrentView = "all"
 
-const TOTAL_DONATION_DOLLAR_AMOUNT: string = '9,450'
-const LAST_DONATION_DATE: string = 'February 14, 2021'
-const LAST_RELEASE_DATE: string = 'Nov 30, 2020'
+const TOTAL_DONATION_DOLLAR_AMOUNT: string = "9,450"
+const LAST_DONATION_DATE: string = "February 14, 2021"
+const LAST_RELEASE_DATE: string = "Feb 20, 2021"
 
 const Blog = ({ intl }) => {
-  function toggleReleases() {
+  const toggleReleases = () => {
     toggleView("releases")
   }
 
-  function toggleDonations() {
+  const toggleDonations = () => {
     toggleView("donations")
   }
 
@@ -74,14 +74,15 @@ const Blog = ({ intl }) => {
             {" "}
             {intl.formatMessage({ id: "blog.released" })}
           </span>{" "}
-          { LAST_RELEASE_DATE }
+          {LAST_RELEASE_DATE}
           <hr />
           <span className="donation-description">
-            Version 3.1.0 coming this month: will fix network drive initial slow scan. New feature: remote control through your phone!
+            Please feel free to send feedback and feature requests. Busy year
+            for me ahead but I will try to add more features.
           </span>
           <a
             id="releasesButton"
-            href="#"
+            href={"#" + Math.random()}
             onClick={toggleReleases}
             className={
               "btn " + (currentlyShowing === "releases" ? "btn-primary" : "")
@@ -97,13 +98,14 @@ const Blog = ({ intl }) => {
             {intl.formatMessage({ id: "blog.donated" })}
           </h2>
           <div className="price">
-            <sup className="currency">$</sup>{ TOTAL_DONATION_DOLLAR_AMOUNT }
+            <sup className="currency">$</sup>
+            {TOTAL_DONATION_DOLLAR_AMOUNT}
           </div>
           <span className="light">
             {" "}
             {intl.formatMessage({ id: "blog.updated" })}
           </span>{" "}
-          { LAST_DONATION_DATE }
+          {LAST_DONATION_DATE}
           <hr />
           <span className="donation-description">
             <FormattedMessage
@@ -118,7 +120,7 @@ const Blog = ({ intl }) => {
           </span>
           <a
             id="donationButton"
-            href="#"
+            href={"#" + Math.random()}
             onClick={toggleDonations}
             className={
               "btn " + (currentlyShowing === "donations" ? "btn-primary" : "")
@@ -153,14 +155,7 @@ const Blog = ({ intl }) => {
               </a>
               : "{intl.formatMessage({ id: "reviews.softpedia" })}"
             </li>
-{/*
-            <li>
-              <a href="https://www.filecroco.com/download-video-hub-app/">
-                FileCroco
-              </a>
-              : "{intl.formatMessage({ id: "reviews.filecroco" })}"
-            </li>
-*/}
+
             <li>
               <a href="http://video-hub-app.findmysoft.com/">FindMySoft</a>: "
               {intl.formatMessage({ id: "reviews.findmysoft" })}"
@@ -177,6 +172,26 @@ const Blog = ({ intl }) => {
             ? intl.formatMessage({ id: "blog.donations" })
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
+
+        <Release
+          data={{
+            currentlyShowing,
+            date: "Feb 20, 2020",
+            features: [
+              "Remote control (use phone or tablet with the app)",
+              "Support MPV video player",
+              "extract FPS and sort by it",
+              "times played filter",
+            ],
+            bugfixes: [
+              "scanning remote drives is fast and without error",
+              "Mac copy/paste works",
+              "some more minor bugfixes",
+            ],
+            version: "3.1.0",
+            notes: "If you purchased the app before, visit my.videohubapp.com",
+          }}
+        />
 
         <Receipt
           data={{
@@ -242,8 +257,7 @@ const Blog = ({ intl }) => {
             ],
             bugfixes: ["Too many to list"],
             version: "3.0.0",
-            notes:
-              "If you purchased the app before, visit my.videohubapp.com",
+            notes: "If you purchased the app before, visit my.videohubapp.com",
           }}
         />
 
