@@ -34,8 +34,8 @@ type CurrentView = "all" | "donations" | "releases"
 
 let currentlyShowing: CurrentView = "all"
 
-const TOTAL_DONATION_DOLLAR_AMOUNT: string = "9,450"
-const LAST_DONATION_DATE: string = "February 14, 2021"
+const TOTAL_DONATION_DOLLAR_AMOUNT: string = "9,800"
+const LAST_DONATION_DATE: string = "March 8, 2021"
 const LAST_RELEASE_DATE: string = "Feb 20, 2021"
 
 const Blog = ({ intl }) => {
@@ -173,10 +173,20 @@ const Blog = ({ intl }) => {
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
 
+        <Receipt
+          data={{
+            currentlyShowing,
+            amount: "2,800",
+            date: "Mar 8, 2021",
+            receipt:
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=705631",
+          }}
+        />
+
         <Release
           data={{
             currentlyShowing,
-            date: "Feb 20, 2020",
+            date: "Feb 20, 2021",
             features: [
               "Remote control (use phone or tablet with the app)",
               "Support MPV video player",
