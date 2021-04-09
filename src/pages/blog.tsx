@@ -179,7 +179,7 @@ const Blog = ({ intl }) => {
             amount: "2,900",
             date: "Apr 8, 2021",
             receipt:
-              "https://www.againstmalaria.com/MyNets.aspx?DonationID=705631",
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=716947",
           }}
         />
 
