@@ -1,7 +1,7 @@
 import React from "react"
 
 import Swiper from "react-id-swiper"
-import SwiperCore, { Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 
 import "./swiper.css"
 
@@ -11,9 +11,8 @@ import FeatureList from "./featureList"
 
 const Carousel = ({ data, intl }) => {
 
-  SwiperCore.use([Pagination])
-
   const params = {
+    modules: [Pagination, Navigation],
     loop: true,
     pagination: {
       el: ".swiper-pagination",
