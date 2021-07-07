@@ -34,8 +34,8 @@ type CurrentView = "all" | "donations" | "releases"
 
 let currentlyShowing: CurrentView = "all"
 
-const TOTAL_DONATION_DOLLAR_AMOUNT: string = "10,850"
-const LAST_DONATION_DATE: string = "Jun 4, 2021"
+const TOTAL_DONATION_DOLLAR_AMOUNT: string = "11,200"
+const LAST_DONATION_DATE: string = "Jul 6, 2021"
 const LAST_RELEASE_DATE: string = "Feb 20, 2021"
 
 const Blog = ({ intl }) => {
@@ -176,12 +176,23 @@ const Blog = ({ intl }) => {
         <Receipt
           data={{
             currentlyShowing,
+            amount: "3,200",
+            date: "Jul 6, 2021",
+            receipt:
+              "https://www.againstmalaria.com/MyNets.aspx?DonationID=751939",
+          }}
+        />
+
+        <Receipt
+          data={{
+            currentlyShowing,
             amount: "3,100",
             date: "Jun 4, 2021",
             receipt:
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=736976",
           }}
         />
+
         <Receipt
           data={{
             currentlyShowing,
@@ -191,6 +202,7 @@ const Blog = ({ intl }) => {
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=736976",
           }}
         />
+
         <Receipt
           data={{
             currentlyShowing,
