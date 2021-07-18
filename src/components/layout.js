@@ -52,7 +52,7 @@ const Layout = ({ children, intl }) => {
               </main>
 
               <footer>
-                <div className="copyright">© 2020 Video Hub App</div>
+                <div className="copyright">© { new Date().getFullYear() } Video Hub App</div>
 
                 <div className="footer-links">
                   <a
@@ -127,6 +127,13 @@ const Layout = ({ children, intl }) => {
             activeClassName="current-page"
           >
             {intl.formatMessage({ id: "navigation.faq" })}
+          </Link>
+          <Link
+            to="/guide"
+            className="my-icon-book"
+            activeClassName="current-page"
+          >
+            {intl.formatMessage({ id: "navigation.guide" })}
           </Link>
           <Link
             to="/about"
