@@ -57,7 +57,7 @@ const Layout = ({ children, intl }) => {
                 <div className="footer-links">
                   <a
                     title="share on Twitter"
-                    href="https://twitter.com/intent/tweet?hashtags=videohubapp&original_referer=https%3A%2F%2Fvideohubapp.com&text=Browse,%20search,%20preview,%20and%20manage%20your%20videos%20with%20Video%20Hub%20App%202%20for%20Win%20and%20Mac&url=https%3A%2F%2Fvideohubapp.com"
+                    href="https://twitter.com/intent/tweet?hashtags=videohubapp&original_referer=https%3A%2F%2Fvideohubapp.com&text=Browse,%20search,%20preview,%20and%20manage%20your%20videos%20with%20Video%20Hub%20App%203%20for%20Win%20and%20Mac&url=https%3A%2F%2Fvideohubapp.com"
                   >
                     <svg
                       width="16"
