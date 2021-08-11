@@ -154,6 +154,8 @@ const Guide = ({ intl }) => (
       <p><FormattedMessage id="guide.move10" /></p>
       <p><FormattedMessage id="guide.move11" /></p>
       
+      <p className="thank-you-oren"><FormattedMessage id="guide.thank_you_oren" /></p>
+
     </section>
   </Layout>
 )

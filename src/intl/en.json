@@ -242,7 +242,8 @@
     "move9": "In the second scenario, you are launching Video hub by clicking a launcher or on a user shortcut. In contrast to the previous scenario, where you could access the hub’s database, in this case the app will not even find the the database. You will see an error message as below.",
     "move10": "In this case, manually navigate to the new video folder, backup the <hub_name>.vha2 and and click on it to open. If necessary, associate the file with the Video hub app, by rightclicking on the file, selecting ‘open with’ and navigating to where Video hub is installed and selecting it.",
     "move11": "Once you have opened the hub, proceed as in the previous scenario.",
-    "toc_heading": "Table of Contents"
+    "toc_heading": "Table of Contents",
+    "thank_you_oren": "Thanks to Oren for creating this user guide"
   },
   "home": {
     "download": "DOWNLOAD",
