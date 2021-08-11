@@ -18,7 +18,7 @@ Custom icons file generated from [typicons.font](https://github.com/stephenhutch
 
 ```sh
 pyftsubset typicons.woff \
-  --unicodes=U+e065,U+e08a,U+e08d,U+e091,U+e0a5,U+e0bf,U+e0e5,U+e0f9,U+e109,U+e088 \
+  --unicodes=U+e065,U+e08a,U+e08d,U+e091,U+e0a5,U+e0bf,U+e0e5,U+e0f9,U+e109,U+e088,U+e032 \
   --output-file=typicons-custom.woff2 \
   --flavor=woff2
 ```

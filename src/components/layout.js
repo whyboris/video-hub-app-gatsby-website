@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { injectIntl, Link } from "gatsby-plugin-intl"
 
+import ScrollToTop from "../components/scrolltotop"
+
 import "./navigation.scss"
 import "./hamburger.scss"
 import "./layout.scss"
@@ -19,7 +21,7 @@ const { weareready } =
     ? require("../components/navigation")
     : { weareready: () => {} }
 
-const Layout = ({ children, intl }) => {
+const Layout = ({ children, intl, showScrollToTop }) => {
   setTimeout(() => {
     weareready()
   }, 1)
@@ -44,6 +46,9 @@ const Layout = ({ children, intl }) => {
       </button>
 
       <div id="perspective" className={"perspective effect-moveleft" + (intl.locale === "en" ? " en-version" : "")}>
+
+        { showScrollToTop && <ScrollToTop />}
+
         <div className="containerNAV">
           <div className="wrapper" id="clickHack">
             <div className="body-contents">

@@ -4,19 +4,17 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import ScrollToTop from "../components/scrolltotop"
-
 const questions = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8"]
 
 const FAQ = ({ intl }) => (
-  <Layout>
+  <Layout
+    showScrollToTop={true}
+  >
     <SEO
       lang={intl.locale}
       title={intl.formatMessage({ id: "faq.title" })}
       description={intl.formatMessage({ id: "general.description" })}
     />
-
-    <ScrollToTop />
 
     <section className="faq">
       <h1>
