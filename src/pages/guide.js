@@ -30,16 +30,17 @@ const Guide = ({ intl }) => (
       </ol>
 
       <h2 id="getting_started"><FormattedMessage id="guide.getting_started" /></h2>
-      <p><FormattedMessage id="guide.intro" /></p>
       <p><FormattedMessage id="guide.start1" /></p>
       <p><FormattedMessage id="guide.start2" /></p>
       <p><FormattedMessage id="guide.start3" /></p>
       <p><FormattedMessage id="guide.start4" /></p>
       <p><FormattedMessage id="guide.start5" /></p>
+      <p><FormattedMessage id="guide.start6" /></p>
+      <p><FormattedMessage id="guide.start7" /></p>
 
       <h2 id="layout_heading"><FormattedMessage id="guide.layout_heading" /></h2>
-      <img src="lol.jpg" />
       <p><FormattedMessage id="guide.layout_intro" /></p>
+      <img src="lol.jpg" />
       <ol>
         <li><FormattedMessage id="guide.layout1" /></li>
         <li><FormattedMessage id="guide.layout2" /></li>
