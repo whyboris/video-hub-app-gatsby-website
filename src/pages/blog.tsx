@@ -173,6 +173,19 @@ const Blog = ({ intl }) => {
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
 
+        <Release
+          data={{
+            currentlyShowing,
+            date: "Sep 12, 2021",
+            notes: "Thanks to Oren for creating a user guide for VHA!",
+            link: {
+              link: "/guide",
+              text: "User Guide",
+            },
+            hideTada: true,
+          }}
+        />
+
         <Receipt
           data={{
             currentlyShowing,
