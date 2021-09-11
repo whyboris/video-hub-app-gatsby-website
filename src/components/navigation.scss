@@ -56,6 +56,10 @@ body,
   position: fixed;
   -webkit-perspective: 1500px;
   perspective: 1500px;
+
+  .scroll-to-top {
+    display: none;
+  }
 }
 
 .modalview .containerNAV {
@@ -193,6 +197,9 @@ body,
 }
 .my-icon-star:before {
   content: "\e109";
+}
+.my-icon-book:before {
+  content: "\e032";
 }
 .my-icon-heart:before {
   content: "\e088";
