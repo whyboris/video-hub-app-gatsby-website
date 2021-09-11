@@ -40,7 +40,7 @@ const Guide = ({ intl }) => (
 
       <h2 id="layout_heading"><FormattedMessage id="guide.layout_heading" /></h2>
       <p><FormattedMessage id="guide.layout_intro" /></p>
-      <img src="lol.jpg" />
+      <img src="layout.jpg" />
       <ol>
         <li><FormattedMessage id="guide.layout1" /></li>
         <li><FormattedMessage id="guide.layout2" /></li>
@@ -49,29 +49,37 @@ const Guide = ({ intl }) => (
         <li><FormattedMessage id="guide.layout5" /></li>
       </ol>
 
-      <h3><FormattedMessage id="guide.ingesting_heading" /></h3>
-      <p><FormattedMessage id="guide.ingesting" /></p>
-
       <h3><FormattedMessage id="guide.tagging_heading" /></h3>
       <p><FormattedMessage id="guide.tagging1" /></p>
-      <p><FormattedMessage id="guide.tagging2" /></p>
       <ul>
+        <li><FormattedMessage id="guide.tagging2" /></li>
         <li><FormattedMessage id="guide.tagging3" /></li>
         <li><FormattedMessage id="guide.tagging4" /></li>
+        <li><FormattedMessage id="guide.tagging5" /></li>
       </ul>
-      <p><FormattedMessage id="guide.tagging5" /></p>
-      <p><FormattedMessage id="guide.tagging6" /></p>
+      <p><FormattedMessage id="guide.tagging6" /></p>     
+      <p><FormattedMessage id="guide.tagging7" /></p>
+
+      <h3><FormattedMessage id="guide.tagging_batch_heading" /></h3>
+      <p><FormattedMessage id="guide.tagging_batch1" /></p>
+      <ol>
+        <li><FormattedMessage id="guide.tagging_batch2" /></li>
+        <li><FormattedMessage id="guide.tagging_batch3" /></li>     
+        <li><FormattedMessage id="guide.tagging_batch4" /></li>
+      </ol>
+      <p><FormattedMessage id="guide.tagging_batch5" /></p>
 
       <h3><FormattedMessage id="guide.rating_heading" /></h3>
       <p><FormattedMessage id="guide.rating1" /></p>
       <p><FormattedMessage id="guide.rating2" /></p>
+      <p><FormattedMessage id="guide.rating3" /></p>
 
       <h3><FormattedMessage id="guide.renaming_heading" /></h3>
       <p><FormattedMessage id="guide.renaming1" /></p>
-      <p><FormattedMessage id="guide.renaming2" /></p>
 
       <h3><FormattedMessage id="guide.thumbnail_heading" /></h3>
       <p><FormattedMessage id="guide.thumbnail1" /></p>
+      <p><FormattedMessage id="guide.thumbnail2" /></p>
 
       <h2 id="settings_heading"><FormattedMessage id="guide.settings_heading" /></h2>
       <p><FormattedMessage id="guide.settings1" /></p>
@@ -84,6 +92,7 @@ const Guide = ({ intl }) => (
       <p><FormattedMessage id="guide.search3" /></p>
       <p><FormattedMessage id="guide.search4" /></p>
       <p><FormattedMessage id="guide.search5" /></p>
+      <p><FormattedMessage id="guide.search6" /></p>
 
       <h3><FormattedMessage id="guide.view_heading" /></h3>
       <p><FormattedMessage id="guide.view1" /></p>
@@ -109,9 +118,12 @@ const Guide = ({ intl }) => (
         <li><FormattedMessage id="guide.current3" /></li>     
         <li><FormattedMessage id="guide.current4" /></li>
         <li><FormattedMessage id="guide.current5" /></li>
-        <li><FormattedMessage id="guide.current6" /></li>      
+        <li><FormattedMessage id="guide.current6" /></li>   
+        <li><FormattedMessage id="guide.current7" /></li>
+        <li><FormattedMessage id="guide.current8" /></li>     
+        <li><FormattedMessage id="guide.current9" /></li> 
       </ul>
-      <p><FormattedMessage id="guide.current7" /></p>
+      <p><FormattedMessage id="guide.current10" /></p>      
 
       <h3><FormattedMessage id="guide.shortcuts_heading" /></h3>
       <p><FormattedMessage id="guide.shortcuts1" /></p>
@@ -121,8 +133,8 @@ const Guide = ({ intl }) => (
 
       <h2 id="using_search_heading"><FormattedMessage id="guide.using_search_heading" /></h2>
       <p><FormattedMessage id="guide.using_search1" /></p>
+      <p><FormattedMessage id="guide.using_search2" /></p>
       <ul>
-        <li><FormattedMessage id="guide.using_search2" /></li>
         <li><FormattedMessage id="guide.using_search3" /></li>     
         <li><FormattedMessage id="guide.using_search4" /></li>
         <li><FormattedMessage id="guide.using_search5" /></li>
@@ -137,23 +149,20 @@ const Guide = ({ intl }) => (
       <p><FormattedMessage id="guide.adding2" /></p>
       <p><FormattedMessage id="guide.adding3" /></p>
       <p><FormattedMessage id="guide.adding4" /></p>
-      <p><FormattedMessage id="guide.adding5" /></p>
 
       <h3><FormattedMessage id="guide.movefolder_heading" /></h3>
       <p><FormattedMessage id="guide.move1" /></p>
       <p><FormattedMessage id="guide.move2" /></p>
       <p><FormattedMessage id="guide.move3" /></p>
-      <p><FormattedMessage id="guide.move4" /></p>
-      <img src="lol.jpg" />
-      <p><FormattedMessage id="guide.move5" /></p>
-      <p><FormattedMessage id="guide.move6" /></p>
-      <img src="lol.jpg" />
-      <p><FormattedMessage id="guide.move7" /></p>
-      <p><FormattedMessage id="guide.move8" /></p>
+      <ol>
+        <li><FormattedMessage id="guide.move4" /></li>
+        <li><FormattedMessage id="guide.move5" /></li>
+        <li><FormattedMessage id="guide.move6" /></li>
+        <li><FormattedMessage id="guide.move7" /></li>
+        <li><FormattedMessage id="guide.move8" /></li>
+      </ol>
       <p><FormattedMessage id="guide.move9" /></p>
-      <img src="lol.jpg" />
-      <p><FormattedMessage id="guide.move10" /></p>
-      <p><FormattedMessage id="guide.move11" /></p>
+
       
       <p className="thank-you-oren"><FormattedMessage id="guide.thank_you_oren" /></p>
 
