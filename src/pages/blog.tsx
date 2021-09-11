@@ -56,7 +56,9 @@ const Blog = ({ intl }) => {
   }
 
   return (
-    <Layout>
+    <Layout
+      showScrollToTop={true}
+    >
       <SEO
         lang={intl.locale}
         title={intl.formatMessage({ id: "navigation.blog" })}
