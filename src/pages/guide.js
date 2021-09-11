@@ -4,8 +4,6 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-// const questions = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8"]
-
 const Guide = ({ intl }) => (
   <Layout
     showScrollToTop={true}
@@ -40,7 +38,9 @@ const Guide = ({ intl }) => (
 
       <h2 id="layout_heading"><FormattedMessage id="guide.layout_heading" /></h2>
       <p><FormattedMessage id="guide.layout_intro" /></p>
-      <img src="layout.jpg" />
+
+      <img src="/images/layout.png" alt="Video Hub App layout" style={{ width: "100%" }} /> 
+
       <ol>
         <li><FormattedMessage id="guide.layout1" /></li>
         <li><FormattedMessage id="guide.layout2" /></li>
