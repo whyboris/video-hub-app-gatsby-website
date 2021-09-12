@@ -2,38 +2,25 @@
   p,
   h1,
   h2,
-  .book-description-block,
-  .benefits-list,
-  .swiper-slide,
-  .thin-panel,
-  .team-list,
-  .opportunities-list
+  h3,
+  ol,
+  ul,
+  .swiper-slide
   {
     direction: rtl;
   }
-
-  strong {
-    display: block;
-    direction: rtl;
-  }
-
-  .news-text {
-    h2, p {
+  
+  .blog-contents {
+    p,
+    h1,
+    h2,
+    h3,
+    ol,
+    ul,
+    .swiper-slide
+    {
       direction: ltr;
     }
   }
 
-  .team-photo {
-    transform: translate(80px, -5px);
-  }
-
-}
-
-.nav-link-rtl {
-  .dropdown-content {
-    direction: rtl;
-  }
-  .dropdown-content-language {
-    direction: ltr;
-  }
 }

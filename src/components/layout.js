@@ -52,7 +52,7 @@ const Layout = ({ children, intl, showScrollToTop }) => {
         <div className="containerNAV">
           <div className="wrapper" id="clickHack">
             <div className="body-contents">
-              <main>
+              <main className={ (intl.locale === 'ar' || intl.locale === 'iw') ? "rtl-version" : "" }>
                 {children}
               </main>
 
