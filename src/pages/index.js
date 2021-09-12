@@ -22,12 +22,15 @@ import Language from "../components/language"
 const IndexPage = ({ data, intl }) => {
   function playAnimation() {
     setTimeout(() => {
-      const el = document.getElementById("splashImage")
-      el.classList.add("splash-animation")
-      const el2 = document.getElementById("splashSVG")
-      setTimeout(() => {
-        el2.classList.add("hide-it")
-      }, 500)
+      const docRef = typeof document !== `undefined` ? document : undefined;
+      if (docRef) {
+        const el = document.getElementById("splashImage")
+        el.classList.add("splash-animation")
+        const el2 = document.getElementById("splashSVG")
+        setTimeout(() => {
+          el2.classList.add("hide-it")
+        }, 500)
+      }
     }, 1000)
   }
 
