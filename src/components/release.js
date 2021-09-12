@@ -1,6 +1,6 @@
 import React from "react"
 
-import { injectIntl } from "gatsby-plugin-intl"
+import { injectIntl, Link } from "gatsby-plugin-intl"
 
 const Release = ({ data, intl }) => {
   return (
@@ -43,6 +43,8 @@ const Release = ({ data, intl }) => {
       {data.notes ? <span className="notes">{data.notes}</span> : null}
 
       {data.link ? <a href={data.link.link}>{data.link.text}</a> : null}
+
+      {data.linkInternal ? <Link to={data.linkInternal.link}>{data.linkInternal.text}</Link> : null}
     </div>
   )
 }

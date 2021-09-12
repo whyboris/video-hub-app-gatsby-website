@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 
 import ScrollToTop from "../components/scrolltotop"
 
+
 import { latestVersion } from "../components/version"
 
 // copied from `about.js`
@@ -180,7 +181,7 @@ const Blog = ({ intl }) => {
             currentlyShowing,
             date: "Sep 12, 2021",
             notes: "Thanks to Oren for creating a user guide for VHA!",
-            link: {
+            linkInternal: {
               link: "/guide",
               text: "User Guide",
             },
