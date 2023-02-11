@@ -24,11 +24,11 @@ const IndexPage = ({ data, intl }) => {
     setTimeout(() => {
       const docRef = typeof document !== `undefined` ? document : undefined;
       if (docRef) {
-        const el = document.getElementById("splashImage")
-        el.classList.add("splash-animation")
-        const el2 = document.getElementById("splashSVG")
+        const appSplashImage = document.getElementById("splashImage")
+        appSplashImage.classList.add("splash-animation")
+        const appWireframe = document.getElementById("splashSVG")
         setTimeout(() => {
-          el2.classList.add("hide-it")
+          appWireframe.classList.add("hide-it")
         }, 500)
       }
     }, 1000)
@@ -67,7 +67,6 @@ const IndexPage = ({ data, intl }) => {
               <img
                 alt="Video Hub App screenshot"
                 id="splashImage"
-                className="splash"
                 src="/images/splash.jpg"
                 onLoad={playAnimation()}
               />
