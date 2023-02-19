@@ -9,7 +9,7 @@ import SplashSVG from "../svg/splash.svg"
 import ComputerSVG from "../svg/computer.svg"
 import LanguageSVG from "../svg/language.svg"
 
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -103,8 +103,8 @@ const IndexPage = ({ data, intl }) => {
           <div className="image-container">
             <video muted src="/images/1.mp4" loop autoPlay>
               {/* <img alt="video hub app screenshot" src="/images/1.webp" /> */}
-              <Img
-                fluid={data.large1.childImageSharp.fluid}
+              <GatsbyImage
+                image={data.large1.childImageSharp.gatsbyImageData}
                 alt="Video Hub App screenshot"
               />
             </video>
@@ -120,8 +120,8 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/2.webp" /> */}
-            <Img
-              fluid={data.large2.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.large2.childImageSharp.gatsbyImageData}
               alt="Video Hub App screenshot"
             />
           </div>
@@ -136,8 +136,8 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview reverse">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/3.webp" /> */}
-            <Img
-              fluid={data.large3.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.large3.childImageSharp.gatsbyImageData}
               alt="Video Hub App screenshot"
             />
           </div>
@@ -152,8 +152,8 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/4.webp" /> */}
-            <Img
-              fluid={data.large4.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.large4.childImageSharp.gatsbyImageData}
               alt="Video Hub App screenshot"
             />
           </div>
@@ -168,8 +168,8 @@ const IndexPage = ({ data, intl }) => {
         <div className="feature-preview reverse">
           <div className="image-container">
             {/* <img alt="video hub app screenshot" src="/images/5.webp" /> */}
-            <Img
-              fluid={data.large5.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.large5.childImageSharp.gatsbyImageData}
               alt="Video Hub App screenshot"
             />
           </div>
@@ -193,8 +193,8 @@ const IndexPage = ({ data, intl }) => {
           src="/images/wizard.webp"
           alt="How to start with Video Hub App"
         ></img> */}
-        <Img
-          fluid={data.wizard.childImageSharp.fluid}
+        <GatsbyImage
+          image={data.wizard.childImageSharp.gatsbyImageData}
           alt="Video Hub App screenshot"
         />
 
@@ -241,8 +241,8 @@ const IndexPage = ({ data, intl }) => {
           alt="works on Windows, Mac, and Linux"
           className="img-responsive"
         /> */}
-        <Img
-          fluid={data.allos.childImageSharp.fluid}
+        <GatsbyImage
+          image={data.allos.childImageSharp.gatsbyImageData}
           alt="Video Hub App screenshot"
         />
 
@@ -273,51 +273,37 @@ export const query = graphql`
   query {
     large1: file(relativePath: { eq: "large/1.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 450) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     large2: file(relativePath: { eq: "large/2.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 450) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     large3: file(relativePath: { eq: "large/3.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 450) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     large4: file(relativePath: { eq: "large/4.png" }) {
       childImageSharp {
-        fluid(maxWidth: 450) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     large5: file(relativePath: { eq: "large/5.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 450) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     wizard: file(relativePath: { eq: "large/wizard.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1024) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     allos: file(relativePath: { eq: "large/all-desktops.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 680) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
   }
