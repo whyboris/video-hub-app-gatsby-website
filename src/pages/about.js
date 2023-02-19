@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import GiveWell from "../components/givewell"
 
@@ -36,7 +36,7 @@ const About = ({ data, intl }) => (
     />
 
     <div className="about-me">
-      <Img fluid={data.boris.childImageSharp.fluid} alt="Boris Yakubchik" />
+      <GatsbyImage image={data.boris.childImageSharp.gatsbyImageData} alt="Boris Yakubchik" />
 
       <h1>Boris Yakubchik</h1>
 
@@ -50,8 +50,8 @@ const About = ({ data, intl }) => (
     <section className="why-donate">
       <h1>{intl.formatMessage({ id: "about.whydonate" })}</h1>
 
-      <Img
-        fluid={data.amf.childImageSharp.fluid}
+      <GatsbyImage
+        image={data.amf.childImageSharp.gatsbyImageData}
         alt="Against Malaria Foundation"
       />
 
@@ -77,16 +77,12 @@ export const query = graphql`
   query {
     amf: file(relativePath: { eq: "againstmalariafoundation.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 780) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
     boris: file(relativePath: { eq: "boris.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: CONSTRAINED)
       }
     }
   }
