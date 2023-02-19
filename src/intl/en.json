@@ -105,6 +105,8 @@
     "multifolder_a4": "Create several hubs, and you can switch between them with 1 click (just toggle in settings to show recent hubs) in the left sidebar.",
     "multifolder_a5": "Create a symlink to all the folders you'd like within one folder, and create a hub from that one folder.",
     "multifolder_version_3_answer": "Go to settings, click on 'Current hub', click on 'Edit folders' to add more folders.",
+    "privacy_policy": "Privacy Policy",
+    "privacy_policy_a1": "No data is collected or kept. The app never calls the internet; except if you click 'check for new version', the app will call https://my.videohubapp.com/version.php",
     "q1": "How do I create a new hub?",
     "q1_answer": "Click on the gear (top right) to access the 'settings menu'. Click on the first button to start the 'wizard' again.",
     "q2": "Can I have more than one hub?",

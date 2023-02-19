@@ -89,6 +89,13 @@ const FAQ = ({ intl }) => (
           <FormattedMessage id="faq.multifolder_a5" />
         </li>
       </ul>
+
+      <h2>
+        <FormattedMessage id="faq.privacy_policy" />
+      </h2>
+      <p>
+        <FormattedMessage id="faq.privacy_policy_a1" />
+      </p>
     </section>
   </Layout>
 )
