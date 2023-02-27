@@ -105,6 +105,8 @@
     "multifolder_a4": "Cree varios hubs, y puede cambiar entre ellos con 1 clic (solo cambie en la configuración para mostrar los hubs recientes) en la barra lateral izquierda.",
     "multifolder_a5": "Cree un enlace simbólico a todas las carpetas que desee dentro de una carpeta y cree un centro a partir de esa carpeta.",
     "multifolder_version_3_answer": "Vaya a la configuración, haga clic en 'Centro actual', haga clic en 'Editar carpetas' para agregar más carpetas.",
+    "privacy_policy": "política de privacidad",
+    "privacy_policy_a1": "La aplicación nunca envía ningún dato. Toda su información permanece privada en su computadora.",
     "q1": "¿Cómo creo un nuevo hub?",
     "q1_answer": "Haga clic en el engranaje (arriba a la derecha) para acceder al 'menú de configuración'. Haga clic en el primer botón para iniciar el 'asistente' nuevamente.",
     "q2": "¿Puedo tener más de un hub?",

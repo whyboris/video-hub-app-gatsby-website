@@ -105,6 +105,8 @@
     "multifolder_a4": "Créez plusieurs hubs et vous pouvez basculer entre eux en 1 clic (il suffit de basculer dans les paramètres pour afficher les hubs récents) dans la barre latérale gauche.",
     "multifolder_a5": "Créez un lien symbolique vers tous les dossiers que vous souhaitez dans un dossier et créez un hub à partir de ce dossier.",
     "multifolder_version_3_answer": "Allez dans les paramètres, cliquez sur «Hub actuel», cliquez sur «Modifier les dossiers» pour ajouter plus de dossiers.",
+    "privacy_policy": "politique de confidentialité",
+    "privacy_policy_a1": "L'application n'envoie jamais de données. Toutes vos informations restent privées sur votre ordinateur.",
     "q1": "Comment créer un nouveau hub?",
     "q1_answer": "Cliquez sur l'engrenage (en haut à droite) pour accéder au «menu des paramètres». Cliquez sur le premier bouton pour redémarrer l '«assistant».",
     "q2": "Puis-je avoir plus d'un hub?",
