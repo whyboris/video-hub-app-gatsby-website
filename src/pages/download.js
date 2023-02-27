@@ -60,11 +60,11 @@ const Download = ({ intl }) => (
         data={{
           os: "Windows",
           version: latestVersion,
-          size: "66mb",
+          size: "120mb",
           link:
-            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3.Setup.3.1.0-demo.exe",
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo.Setup.3.2.0.exe",
           portable:
-            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3.3.1.0-demo.exe",
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo.Portable.3.2.0.exe",
         }}
       />
 
@@ -72,8 +72,10 @@ const Download = ({ intl }) => (
         data={{
           os: "Mac",
           version: latestVersion,
-          size: "107mb",
+          size: "129mb",
           link:
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0-arm64.dmg",
+          oldHack:
             "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3-3.1.0-demo.dmg",
         }}
       />
@@ -82,8 +84,10 @@ const Download = ({ intl }) => (
         data={{
           os: "Linux",
           version: latestVersion,
-          size: "117mb",
+          size: "168mb",
           link:
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0.AppImage",
+          oldHack:
             "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3-3.1.0-demo.AppImage",
         }}
       />

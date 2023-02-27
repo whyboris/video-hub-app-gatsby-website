@@ -25,6 +25,11 @@ const Demo = ({ data, intl }) => {
           {intl.formatMessage({ id: "download.portable" })}
         </a>
       ) : null}
+      {data.oldHack ? (
+        <a href={data.oldHack} className="btn portable-demo">
+          v3.1.0
+        </a>
+      ) : null}
     </div>
   )
 }

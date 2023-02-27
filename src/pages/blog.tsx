@@ -176,6 +176,30 @@ const Blog = ({ intl }) => {
             : intl.formatMessage({ id: "blog.releases" })}
         </h1>
 
+
+        <Release
+          data={{
+            currentlyShowing,
+            date: "Feb 20, 2023",
+            features: [
+              "click on heart to mark video as favorite",
+              "newer version of screenshot extraction engine",
+              "sort by last-time-played",
+              "show bitrate in details",
+              "Mac menu bar improvements",
+              "remember options from last hub creation",
+              "many other small improvements",
+            ],
+            bugfixes: [
+              "dragging video outside of app does not cause error",
+              "magic search includes manual tags",
+              "some more minor bugfixes",
+            ],
+            version: "3.2.0",
+            notes: "Fifth anniversary release 🎉 If you purchased the app before, visit my.videohubapp.com",
+          }}
+        />
+
         <Receipt
           data={{
             currentlyShowing,
