@@ -105,6 +105,8 @@
     "multifolder_a4": "Crie vários hubs e você pode alternar entre eles com um clique (basta alternar nas configurações para mostrar os hubs recentes) na barra lateral esquerda.",
     "multifolder_a5": "Crie um link simbólico para todas as pastas que desejar dentro de uma pasta e crie um hub a partir dessa pasta.",
     "multifolder_version_3_answer": "Vá para as configurações, clique em 'Hub atual', clique em 'Editar pastas' para adicionar mais pastas.",
+    "privacy_policy": "política de Privacidade",
+    "privacy_policy_a1": "O aplicativo nunca envia dados. Todas as suas informações permanecem privadas no seu computador.",
     "q1": "Como faço para criar um novo hub?",
     "q1_answer": "Clique na engrenagem (canto superior direito) para acessar o 'menu de configurações'. Clique no primeiro botão para iniciar o 'assistente' novamente.",
     "q2": "Posso ter mais de um hub?",

@@ -105,6 +105,8 @@
     "multifolder_a4": "Birkaç hub oluşturun ve sol kenar çubuğunda 1 tıklama ile aralarında geçiş yapabilirsiniz (son hub'ları göstermek için ayarlarda geçiş yapmanız yeterlidir).",
     "multifolder_a5": "Tek bir klasörde istediğiniz tüm klasörler için bir sembolik bağlantı oluşturun ve bu klasörden bir hub oluşturun.",
     "multifolder_version_3_answer": "Ayarlara gidin, 'Mevcut hub'a tıklayın, daha fazla klasör eklemek için' Klasörleri düzenle'ye tıklayın.",
+    "privacy_policy": "Gizlilik Politikası",
+    "privacy_policy_a1": "Uygulama asla herhangi bir veri göndermez. Tüm bilgileriniz bilgisayarınızda gizli kalır.",
     "q1": "Nasıl yeni bir hub oluştururum?",
     "q1_answer": "'Ayarlar menüsüne' erişmek için dişli çarkı (sağ üst) tıklayın. 'Sihirbazı' tekrar başlatmak için ilk düğmeye tıklayın.",
     "q2": "Birden fazla hub'ım olabilir mi?",
