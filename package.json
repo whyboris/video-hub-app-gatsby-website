@@ -1,7 +1,7 @@
 {
   "name": "video-hub-app-gatsby-website",
   "description": "Video Hub App public website built with Gatsby",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Boris Yakubchik",
   "dependencies": {
     "gatsby": "5.5.0",
