@@ -26,7 +26,7 @@ const Demo = ({ data, intl }) => {
         </a>
       ) : null}
       {data.oldHack ? (
-        <a href={data.portable} className="btn portable-demo">
+        <a href={data.oldHack} className="btn portable-demo">
           v3.1.0
         </a>
       ) : null}
