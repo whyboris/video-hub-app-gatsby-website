@@ -37,7 +37,7 @@ let currentlyShowing: CurrentView = "all"
 
 const TOTAL_DONATION_DOLLAR_AMOUNT: string = "16,450"
 const LAST_DONATION_DATE: string = "Jan 31, 2023"
-const LAST_RELEASE_DATE: string = "Feb 20, 2021"
+const LAST_RELEASE_DATE: string = "Feb 20, 2023"
 
 const Blog = ({ intl }) => {
   const toggleReleases = () => {

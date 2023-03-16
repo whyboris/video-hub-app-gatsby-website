@@ -62,7 +62,7 @@ const Download = ({ intl }) => (
           version: latestVersion,
           size: "120mb",
           link:
-            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo.Setup.3.2.0.exe",
+            "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo.Setup.3.2.1.exe",
           portable:
             "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo.Portable.3.2.0.exe",
         }}
