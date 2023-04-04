@@ -7,7 +7,7 @@
     "gatsby": "5.5.0",
     "gatsby-plugin-google-gtag": "5.5.0",
     "gatsby-plugin-image": "3.6.0",
-    "gatsby-plugin-intl": "0.3.3",
+    "gatsby-plugin-intl": "5.8.1",
     "gatsby-plugin-manifest": "5.5.0",
     "gatsby-plugin-offline": "6.5.0",
     "gatsby-plugin-preload-fonts": "4.5.0",
