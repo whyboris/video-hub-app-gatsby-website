@@ -80,8 +80,7 @@ const Blog = ({ intl }) => {
           {LAST_RELEASE_DATE}
           <hr />
           <span className="donation-description">
-            Please feel free to send feedback and feature requests. Busy year
-            for me ahead but I will try to add more features.
+            2024 will be a busy year for me, but I intend to resume VHA development when I free up.
           </span>
           <a
             id="releasesButton"
@@ -259,7 +258,7 @@ const Blog = ({ intl }) => {
               "https://www.againstmalaria.com/MyNets.aspx?DonationID=907735",
           }}
         />
-        
+
         <Receipt
           data={{
             currentlyShowing,

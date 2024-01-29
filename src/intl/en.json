@@ -316,7 +316,7 @@
   },
   "thankyou": {
     "linkdescription": "To download updates in the future: in the email you should see an order 'Ref: #' which you can use to download the latest version from this website:",
-    "thankyoutext": "Thank you for purchasing Video Hub App. You should receive an email with the download links within a few minutes.",
+    "thankyoutext": "Thank you for purchasing Video Hub App. You should receive an email with the download links within a few minutes. If the automated email does not arrive, please use the contact form on this website.",
     "title": "Thank you for your purchase"
   }
 }
