@@ -75,7 +75,7 @@ const Download = ({ intl }) => (
           size: "129mb",
           link:
             "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0-arm64.dmg",
-          oldHack:
+          macIntel:
             "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3-3.1.0-demo.dmg",
         }}
       />

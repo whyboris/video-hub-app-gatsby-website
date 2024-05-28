@@ -114,7 +114,7 @@
     "q3": "What happens to my video files?",
     "q3_answer": "All your videos remain unchanged. Video Hub App only takes screenshots of your videos so you can preview them at any time. If the videos are located on an external hard drive you will still be able to see them in Video Hub App whether the hard drive is connected or not. But clicking the video will only open it in your video player if the external hard drive is connected.",
     "q4": "What happens when my videos change?",
-    "q4_answer": "If you add, delete, or rename any videos, just click 'Rescan directory' and Video Hub App will update its internal collection to match your changes. Until you 'Rescan directory', all the old videos will still show up in Video Hub App, but clicking on a video you have deleted or renamed will no longer play the video. Rescanning the directory is quick, and afterwards Video Hub App will show an updated view of your videos.",
+    "q4_answer": "If you add, delete, or rename any videos, just click 'Rescan' (4th tab of settings: 'Current hub') and Video Hub App will update its internal collection to match your changes. Until you 'Rescan', all the old videos will still show up in Video Hub App, but clicking on a video you have deleted or renamed will no longer play the video. Rescanning the directory is quick, and afterwards Video Hub App will show an updated view of your videos.",
     "q5": "Can I sort videos by date?",
     "q5_answer": "Please go to settings, click the 'Search settings' tab, scroll to 'Sorting options in the dropdown' section, and click 'Date Modified' to enable the sorting option.",
     "q6": "Can I change the default thumbnail?",

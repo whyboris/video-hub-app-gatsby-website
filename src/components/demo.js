@@ -30,6 +30,11 @@ const Demo = ({ data, intl }) => {
           v3.1.0
         </a>
       ) : null}
+      {data.macIntel ? (
+        <a href={data.macIntel} className="btn portable-demo">
+          Intel Mac
+        </a>
+      ) : null}
     </div>
   )
 }
