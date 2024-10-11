@@ -4,12 +4,12 @@
   "version": "1.1.0",
   "author": "Boris Yakubchik",
   "dependencies": {
-    "gatsby": "5.13.5",
+    "gatsby": "5.13.7",
     "gatsby-plugin-google-gtag": "5.13.1",
     "gatsby-plugin-image": "3.13.1",
     "gatsby-plugin-intl": "5.10.0",
     "gatsby-plugin-manifest": "5.13.1",
-    "gatsby-plugin-offline": "6.13.2",
+    "gatsby-plugin-offline": "6.13.3",
     "gatsby-plugin-preload-fonts": "4.13.1",
     "gatsby-plugin-react-helmet": "6.13.1",
     "gatsby-plugin-react-svg": "3.3.0",
@@ -19,7 +19,7 @@
     "gatsby-plugin-sitemap": "6.13.1",
     "gatsby-source-filesystem": "5.13.1",
     "gatsby-transformer-sharp": "5.13.1",
-    "sass": "1.77.2",
+    "sass": "1.79.5",
     "prop-types": "15.8.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -28,7 +28,7 @@
     "swiper": "6.7.0"
   },
   "devDependencies": {
-    "prettier": "3.2.5"
+    "prettier": "3.3.3"
   },
   "keywords": [
     "gatsby"

@@ -1,6 +1,8 @@
 import React from "react"
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
+import { Script } from "gatsby"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -110,6 +112,7 @@ const Download = ({ intl }) => (
           <li> {intl.formatMessage({ id: "download.buy4" })}</li>
         </ul>
 
+        {/*
         <a
           href="https://checkout.chec.io/video-hub-app"
           data-chec-product-id="video-hub-app"
@@ -117,6 +120,17 @@ const Download = ({ intl }) => (
         >
           {intl.formatMessage({ id: "download.buy" })}
         </a>
+        */}
+
+        <Script src="https://js.stripe.com/v3/buy-button.js" />
+
+        <stripe-buy-button
+          buy-button-id="buy_btn_1Q8sKdB9pi2t4OBo5tc53aD5"
+          publishable-key="pk_live_xSMzR25ktSR9ziPunyCcqOyI"
+        >
+        </stripe-buy-button>
+
+
       </div>
     </div>
 
