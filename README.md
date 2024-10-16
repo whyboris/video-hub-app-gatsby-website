@@ -12,6 +12,10 @@ It uses [Gatsby](https://www.gatsbyjs.com/) for static HTML generation.
 
 Just `npm install` and `npm start` :tada:
 
+## News
+
+This website was was migrated to [Hugo](https://gohugo.io/). See the new code [whyboris/video-hub-app-hugo](https://github.com/whyboris/video-hub-app-hugo)
+
 ## Icons
 
 Custom icons file generated from [typicons.font](https://github.com/stephenhutchings/typicons.font) by extracting only the icons I need using [fonttools](https://pypi.org/project/fonttools/) with this command:
